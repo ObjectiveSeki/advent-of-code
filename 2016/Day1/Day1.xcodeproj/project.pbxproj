@@ -13,7 +13,11 @@
 		771EB3DD1DF0CDDF0072607E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 771EB3DC1DF0CDDF0072607E /* Assets.xcassets */; };
 		771EB3E01DF0CDDF0072607E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 771EB3DE1DF0CDDF0072607E /* LaunchScreen.storyboard */; };
 		771EB3EB1DF0CDDF0072607E /* Day1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771EB3EA1DF0CDDF0072607E /* Day1Tests.swift */; };
-		771EB3F61DF0E32D0072607E /* Day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771EB3F51DF0E32D0072607E /* Day1.swift */; };
+		DEFC6BD61DF212A600CC0238 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC6BD51DF212A600CC0238 /* Enums.swift */; };
+		DEFC6BD81DF2137E00CC0238 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC6BD71DF2137E00CC0238 /* Extensions.swift */; };
+		DEFC6BDA1DF2141D00CC0238 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC6BD91DF2141D00CC0238 /* Types.swift */; };
+		DEFC6BDC1DF2148500CC0238 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC6BDB1DF2148500CC0238 /* Grid.swift */; };
+		DEFC6BDE1DF2175500CC0238 /* DestinationCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC6BDD1DF2175500CC0238 /* DestinationCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +41,11 @@
 		771EB3E61DF0CDDF0072607E /* Day1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Day1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		771EB3EA1DF0CDDF0072607E /* Day1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day1Tests.swift; sourceTree = "<group>"; };
 		771EB3EC1DF0CDDF0072607E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		771EB3F51DF0E32D0072607E /* Day1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day1.swift; sourceTree = "<group>"; };
+		DEFC6BD51DF212A600CC0238 /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		DEFC6BD71DF2137E00CC0238 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		DEFC6BD91DF2141D00CC0238 /* Types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		DEFC6BDB1DF2148500CC0238 /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		DEFC6BDD1DF2175500CC0238 /* DestinationCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +89,11 @@
 			children = (
 				771EB3D51DF0CDDF0072607E /* AppDelegate.swift */,
 				771EB3D71DF0CDDF0072607E /* ViewController.swift */,
-				771EB3F51DF0E32D0072607E /* Day1.swift */,
+				DEFC6BDD1DF2175500CC0238 /* DestinationCalculator.swift */,
+				DEFC6BDB1DF2148500CC0238 /* Grid.swift */,
+				DEFC6BD51DF212A600CC0238 /* Enums.swift */,
+				DEFC6BD71DF2137E00CC0238 /* Extensions.swift */,
+				DEFC6BD91DF2141D00CC0238 /* Types.swift */,
 				771EB3D91DF0CDDF0072607E /* Main.storyboard */,
 				771EB3DC1DF0CDDF0072607E /* Assets.xcassets */,
 				771EB3DE1DF0CDDF0072607E /* LaunchScreen.storyboard */,
@@ -204,8 +216,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEFC6BD81DF2137E00CC0238 /* Extensions.swift in Sources */,
 				771EB3D81DF0CDDF0072607E /* ViewController.swift in Sources */,
-				771EB3F61DF0E32D0072607E /* Day1.swift in Sources */,
+				DEFC6BDE1DF2175500CC0238 /* DestinationCalculator.swift in Sources */,
+				DEFC6BDA1DF2141D00CC0238 /* Types.swift in Sources */,
+				DEFC6BD61DF212A600CC0238 /* Enums.swift in Sources */,
+				DEFC6BDC1DF2148500CC0238 /* Grid.swift in Sources */,
 				771EB3D61DF0CDDF0072607E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +432,7 @@
 				771EB3F11DF0CDDF0072607E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		771EB3F21DF0CDDF0072607E /* Build configuration list for PBXNativeTarget "Day1Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +441,7 @@
 				771EB3F41DF0CDDF0072607E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
