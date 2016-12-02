@@ -3,8 +3,8 @@ import Foundation
 
 
 struct Coordinate {
-    let x: Int
-    let y: Int
+    var x: Int
+    var y: Int
 }
 
 struct Block {

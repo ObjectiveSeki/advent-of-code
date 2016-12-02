@@ -17,7 +17,7 @@
 		DEFC6BD81DF2137E00CC0238 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC6BD71DF2137E00CC0238 /* Extensions.swift */; };
 		DEFC6BDA1DF2141D00CC0238 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC6BD91DF2141D00CC0238 /* Types.swift */; };
 		DEFC6BDC1DF2148500CC0238 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC6BDB1DF2148500CC0238 /* Grid.swift */; };
-		DEFC6BDE1DF2175500CC0238 /* DestinationCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC6BDD1DF2175500CC0238 /* DestinationCalculator.swift */; };
+		DEFC6BDE1DF2175500CC0238 /* DestinationNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC6BDD1DF2175500CC0238 /* DestinationNavigator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +45,7 @@
 		DEFC6BD71DF2137E00CC0238 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		DEFC6BD91DF2141D00CC0238 /* Types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
 		DEFC6BDB1DF2148500CC0238 /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
-		DEFC6BDD1DF2175500CC0238 /* DestinationCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationCalculator.swift; sourceTree = "<group>"; };
+		DEFC6BDD1DF2175500CC0238 /* DestinationNavigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationNavigator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +89,7 @@
 			children = (
 				771EB3D51DF0CDDF0072607E /* AppDelegate.swift */,
 				771EB3D71DF0CDDF0072607E /* ViewController.swift */,
-				DEFC6BDD1DF2175500CC0238 /* DestinationCalculator.swift */,
+				DEFC6BDD1DF2175500CC0238 /* DestinationNavigator.swift */,
 				DEFC6BDB1DF2148500CC0238 /* Grid.swift */,
 				DEFC6BD51DF212A600CC0238 /* Enums.swift */,
 				DEFC6BD71DF2137E00CC0238 /* Extensions.swift */,
@@ -218,7 +218,7 @@
 			files = (
 				DEFC6BD81DF2137E00CC0238 /* Extensions.swift in Sources */,
 				771EB3D81DF0CDDF0072607E /* ViewController.swift in Sources */,
-				DEFC6BDE1DF2175500CC0238 /* DestinationCalculator.swift in Sources */,
+				DEFC6BDE1DF2175500CC0238 /* DestinationNavigator.swift in Sources */,
 				DEFC6BDA1DF2141D00CC0238 /* Types.swift in Sources */,
 				DEFC6BD61DF212A600CC0238 /* Enums.swift in Sources */,
 				DEFC6BDC1DF2148500CC0238 /* Grid.swift in Sources */,

@@ -5,11 +5,11 @@ import XCTest
 
 class Day1Tests: XCTestCase {
     
-    var sut: DestinationCalculator!
+    var sut: DestinationNavigator!
     
     override func setUp() {
         super.setUp()
-        sut = DestinationCalculator()
+        sut = DestinationNavigator()
     }
     
     override func tearDown() {
@@ -54,7 +54,7 @@ class Day1Tests: XCTestCase {
     func testRight8Right4Right4Right8_FirstVisit() {
         let moves = Moves(moveData: "R8, R4, R4, R8")
         sut.navigate(with: moves)
-        let distance = sut.grid.firstBlockVisitedTwice?.distance()
+        let distance = sut.grid.realDistance()
         XCTAssert(distance == 4)
     }
     

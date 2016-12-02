@@ -2,7 +2,7 @@
 import Foundation
 
 
-struct DestinationCalculator {
+struct DestinationNavigator {
     
     var grid = Grid()
     let directions = [Weather.West, Weather.North, Weather.East, Weather.South]
@@ -12,7 +12,7 @@ struct DestinationCalculator {
         for move in moves.list {
             updatePivot(basedOn: move)
             let direction = directions[pivot]
-            grid.move(in: direction, value: move.blocks)
+            grid.move(in: direction, blocks: move.blocks)
         }
     }
     

@@ -3,43 +3,52 @@ import Foundation
 
 
 struct Grid {
-    var x = 0
-    var y = 0
     
-    var visitedBlocks: [Block] = []
-    var firstBlockVisitedTwice: Block? = nil
+    var coordinate = Coordinate(x: 0, y: 0)
+    private var visitedBlocks: [Block] = []
+    private var firstBlockVisitedTwice: Block? = nil
     
-    mutating func move(in direction: Weather, value: Int) {
-        for _ in 1...value {
-            switch direction {
-            case .West:
-                x -= 1
-            case .North:
-                y += 1
-            case .East:
-                x += 1
-            case .South:
-                y -= 1
-            }
-            let coor = Coordinate(x: x, y: y)
-            let newBlock = Block(coordinate: coor)
-            
-            if firstBlockVisitedTwice == nil {
-                for b in visitedBlocks {
-                    if b.coordinate == newBlock.coordinate {
-                        firstBlockVisitedTwice = b
-                        break
-                    }
-                }
-            }
-            
-            visitedBlocks.append(newBlock)
-            
+    mutating func move(in direction: Weather, blocks: Int) {
+        for _ in 1...blocks {
+            incrementCoordinate(in: direction)
+            updateVisitedBlocks()
         }
     }
     
     func distance() -> Int {
-        return abs(x) + abs(y)
+        let block = Block(coordinate: coordinate)
+        return block.distance()
+    }
+    
+    func realDistance() -> Int? {
+        return firstBlockVisitedTwice?.distance()
+    }
+    
+    
+    private mutating func incrementCoordinate(in direction: Weather) {
+        switch direction {
+        case .West:
+            coordinate.x -= 1
+        case .North:
+            coordinate.y += 1
+        case .East:
+            coordinate.x += 1
+        case .South:
+            coordinate.y -= 1
+        }
+    }
+    
+    private mutating func updateVisitedBlocks() {
+        let newBlock = Block(coordinate: coordinate)
+        if firstBlockVisitedTwice == nil {
+            for block in visitedBlocks {
+                if block.coordinate == newBlock.coordinate {
+                    firstBlockVisitedTwice = block
+                    break
+                }
+            }
+        }
+        visitedBlocks.append(newBlock)
     }
     
 }
