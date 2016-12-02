@@ -22,7 +22,7 @@ struct Grid {
                 y -= 1
             }
             let coor = Coordinate(x: x, y: y)
-            let newBlock = Block(coordinate: coor, visits: 1)
+            let newBlock = Block(coordinate: coor)
             
             if firstBlockVisitedTwice == nil {
                 for b in visitedBlocks {

@@ -4,41 +4,33 @@ import Foundation
 
 struct DestinationCalculator {
     
-    var pivot: Int
-    let direction = [Weather.West, Weather.North, Weather.East, Weather.South]
     var grid = Grid()
+    let directions = [Weather.West, Weather.North, Weather.East, Weather.South]
+    var pivot: Int = 1
     
-    init(pivot: Int = 1) {
-        self.pivot = pivot
+    mutating func navigate(with moves: Moves) {
+        for move in moves.list {
+            updatePivot(basedOn: move)
+            let direction = directions[pivot]
+            grid.move(in: direction, value: move.blocks)
+        }
     }
     
-    mutating func command(c: String) {
-        
-        let array = c.components(separatedBy: ", ")
-        
-        for c in array {
-            let command = Command(c: c)
-            switch command.turn {
-            case .Right:
-                pivot += 1
-            case .Left:
-                pivot -= 1
-            }
-            
-            switch pivot {
-            case -1:
-                pivot = 3
-            case 4:
-                pivot = 0
-            default:
-                break
-            }
-            
-            let d = direction[pivot]
-            grid.move(in: d, value: command.blocks)
-            
+    mutating func updatePivot(basedOn move: Move) {
+        switch move.turn {
+        case .Right:
+            pivot += 1
+        case .Left:
+            pivot -= 1
         }
-        
+        switch pivot {
+        case -1:
+            pivot = 3
+        case 4:
+            pivot = 0
+        default:
+            break
+        }
     }
     
 }
