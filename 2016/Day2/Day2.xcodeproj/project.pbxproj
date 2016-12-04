@@ -12,10 +12,11 @@
 		DEFC6BF11DF22B4300CC0238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEFC6BEF1DF22B4300CC0238 /* Main.storyboard */; };
 		DEFC6BF31DF22B4300CC0238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEFC6BF21DF22B4300CC0238 /* Assets.xcassets */; };
 		DEFC6BF61DF22B4300CC0238 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEFC6BF41DF22B4300CC0238 /* LaunchScreen.storyboard */; };
-		DEFC6C011DF22B4300CC0238 /* Day2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC6C001DF22B4300CC0238 /* Day2Tests.swift */; };
+		DEFC6C011DF22B4300CC0238 /* KeyPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC6C001DF22B4300CC0238 /* KeyPadTests.swift */; };
 		DEFC6C0C1DF3828C00CC0238 /* KeyPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC6C0B1DF3828C00CC0238 /* KeyPad.swift */; };
 		DEFC6C0E1DF382A800CC0238 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC6C0D1DF382A800CC0238 /* Types.swift */; };
 		DEFC6C101DF382D400CC0238 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC6C0F1DF382D400CC0238 /* Enums.swift */; };
+		DEFC6C121DF38A6D00CC0238 /* RealKeyPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC6C111DF38A6D00CC0238 /* RealKeyPadTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +38,12 @@
 		DEFC6BF51DF22B4300CC0238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEFC6BF71DF22B4300CC0238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEFC6BFC1DF22B4300CC0238 /* Day2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Day2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEFC6C001DF22B4300CC0238 /* Day2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2Tests.swift; sourceTree = "<group>"; };
+		DEFC6C001DF22B4300CC0238 /* KeyPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPadTests.swift; sourceTree = "<group>"; };
 		DEFC6C021DF22B4300CC0238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEFC6C0B1DF3828C00CC0238 /* KeyPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyPad.swift; sourceTree = "<group>"; };
 		DEFC6C0D1DF382A800CC0238 /* Types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
 		DEFC6C0F1DF382D400CC0238 /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		DEFC6C111DF38A6D00CC0238 /* RealKeyPadTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealKeyPadTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +101,8 @@
 		DEFC6BFF1DF22B4300CC0238 /* Day2Tests */ = {
 			isa = PBXGroup;
 			children = (
-				DEFC6C001DF22B4300CC0238 /* Day2Tests.swift */,
+				DEFC6C001DF22B4300CC0238 /* KeyPadTests.swift */,
+				DEFC6C111DF38A6D00CC0238 /* RealKeyPadTests.swift */,
 				DEFC6C021DF22B4300CC0238 /* Info.plist */,
 			);
 			path = Day2Tests;
@@ -222,7 +225,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEFC6C011DF22B4300CC0238 /* Day2Tests.swift in Sources */,
+				DEFC6C011DF22B4300CC0238 /* KeyPadTests.swift in Sources */,
+				DEFC6C121DF38A6D00CC0238 /* RealKeyPadTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +428,7 @@
 				DEFC6C071DF22B4300CC0238 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DEFC6C081DF22B4300CC0238 /* Build configuration list for PBXNativeTarget "Day2Tests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +437,7 @@
 				DEFC6C0A1DF22B4300CC0238 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

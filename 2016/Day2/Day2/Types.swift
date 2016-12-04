@@ -15,6 +15,19 @@ struct Position {
     func Y() -> Int { return x }
 }
 
+struct RealPosition {
+    let x: Int
+    let y: Int
+    init?(x: Int, y: Int) {
+        self.x = x
+        self.y = y
+        if self.x < 0 || self.x > 4 { return nil }
+        if self.y < 0 || self.y > 4 { return nil }
+    }
+    func X() -> Int { return y }
+    func Y() -> Int { return x }
+}
+
 struct Directions {
     let list: [Direction]
     init(directionData: String) {
