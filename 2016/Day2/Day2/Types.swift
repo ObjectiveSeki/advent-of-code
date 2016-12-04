@@ -1,8 +1,14 @@
 
 import Foundation
 
+protocol Position {
+    var x: Int { get }
+    var y: Int { get }
+    func X() -> Int
+    func Y() -> Int
+}
 
-struct Position {
+struct NormalPosition: Position {
     let x: Int
     let y: Int
     init?(x: Int, y: Int) {
@@ -15,7 +21,7 @@ struct Position {
     func Y() -> Int { return x }
 }
 
-struct RealPosition {
+struct RealPosition: Position {
     let x: Int
     let y: Int
     init?(x: Int, y: Int) {

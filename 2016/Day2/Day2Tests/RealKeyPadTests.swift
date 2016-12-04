@@ -18,7 +18,7 @@ class RealKeyPadTests: XCTestCase {
 
         
     func testX0Y2_Equals5() {
-        let position = Position(x: 0, y: 2)!
+        let position = RealPosition(x: 0, y: 2)!
         XCTAssert(sut.pad[position.X()][position.Y()] == 5)
     }
         

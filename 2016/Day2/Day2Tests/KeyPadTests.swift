@@ -18,7 +18,7 @@ class KeyPadTests: XCTestCase {
     
     
     func testX0Y2_Equals7() {
-        let position = Position(x: 0, y: 2)!
+        let position = NormalPosition(x: 0, y: 2)!
         XCTAssert(sut.pad[position.X()][position.Y()] == 7)
     }
     
