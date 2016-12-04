@@ -10,4 +10,5 @@ struct TriangleKeeper {
         let valid = triangles.filter { $0.isValid == true }
         return valid.count
     }
+    
 }

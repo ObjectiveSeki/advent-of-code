@@ -21,6 +21,8 @@
 		DECCF4DB1DF4687100D85FD0 /* TriangleKeeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCF4DA1DF4687100D85FD0 /* TriangleKeeper.swift */; };
 		DECCF4DD1DF4689E00D85FD0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCF4DC1DF4689E00D85FD0 /* Extensions.swift */; };
 		DECCF4DF1DF46E2500D85FD0 /* TriangleDataSmallReal in Resources */ = {isa = PBXBuildFile; fileRef = DECCF4DE1DF46E2500D85FD0 /* TriangleDataSmallReal */; };
+		DECCF4E11DF4724200D85FD0 /* TriangleKeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCF4E01DF4724200D85FD0 /* TriangleKeeperTests.swift */; };
+		DECCF4E31DF4728C00D85FD0 /* TriangleFileReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCF4E21DF4728C00D85FD0 /* TriangleFileReaderTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		DECCF4DA1DF4687100D85FD0 /* TriangleKeeper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleKeeper.swift; sourceTree = "<group>"; };
 		DECCF4DC1DF4689E00D85FD0 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		DECCF4DE1DF46E2500D85FD0 /* TriangleDataSmallReal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TriangleDataSmallReal; sourceTree = "<group>"; };
+		DECCF4E01DF4724200D85FD0 /* TriangleKeeperTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleKeeperTests.swift; sourceTree = "<group>"; };
+		DECCF4E21DF4728C00D85FD0 /* TriangleFileReaderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleFileReaderTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 			isa = PBXGroup;
 			children = (
 				DECCF4C11DF4485C00D85FD0 /* TriangleTests.swift */,
+				DECCF4E01DF4724200D85FD0 /* TriangleKeeperTests.swift */,
+				DECCF4E21DF4728C00D85FD0 /* TriangleFileReaderTests.swift */,
 				DECCF4C31DF4485C00D85FD0 /* Info.plist */,
 			);
 			path = Day3Tests;
@@ -243,6 +249,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DECCF4C21DF4485C00D85FD0 /* TriangleTests.swift in Sources */,
+				DECCF4E31DF4728C00D85FD0 /* TriangleFileReaderTests.swift in Sources */,
+				DECCF4E11DF4724200D85FD0 /* TriangleKeeperTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
