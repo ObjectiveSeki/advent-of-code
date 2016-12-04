@@ -4,6 +4,23 @@ import Foundation
 
 struct TriangleFileReader: FileReader {
     
+    func realTriangles(fromFile name: String) -> [Triangle] {
+        guard let s = string(fromFile: name) else { return [] }
+        let oldTriangles = triangles(from: s)
+        var newTriangles: [Triangle] = []
+        var x = 0
+        while x < oldTriangles.count {
+            let old1 = oldTriangles[x+0]
+            let old2 = oldTriangles[x+1]
+            let old3 = oldTriangles[x+2]
+            newTriangles.append(Triangle(a: old1.a, b: old2.a, c: old3.a))
+            newTriangles.append(Triangle(a: old1.b, b: old2.b, c: old3.b))
+            newTriangles.append(Triangle(a: old1.c, b: old2.c, c: old3.c))
+            x += 3
+        }
+        return newTriangles
+    }
+    
     func triangles(fromFile name: String) -> [Triangle] {
         guard let s = string(fromFile: name) else { return [] }
         return triangles(from: s)

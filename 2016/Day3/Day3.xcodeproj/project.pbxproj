@@ -20,6 +20,7 @@
 		DECCF4D91DF4684200D85FD0 /* FileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCF4D81DF4684200D85FD0 /* FileReader.swift */; };
 		DECCF4DB1DF4687100D85FD0 /* TriangleKeeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCF4DA1DF4687100D85FD0 /* TriangleKeeper.swift */; };
 		DECCF4DD1DF4689E00D85FD0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCF4DC1DF4689E00D85FD0 /* Extensions.swift */; };
+		DECCF4DF1DF46E2500D85FD0 /* TriangleDataSmallReal in Resources */ = {isa = PBXBuildFile; fileRef = DECCF4DE1DF46E2500D85FD0 /* TriangleDataSmallReal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		DECCF4D81DF4684200D85FD0 /* FileReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileReader.swift; sourceTree = "<group>"; };
 		DECCF4DA1DF4687100D85FD0 /* TriangleKeeper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleKeeper.swift; sourceTree = "<group>"; };
 		DECCF4DC1DF4689E00D85FD0 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		DECCF4DE1DF46E2500D85FD0 /* TriangleDataSmallReal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TriangleDataSmallReal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				DECCF4B81DF4485C00D85FD0 /* Info.plist */,
 				DECCF4D31DF462F400D85FD0 /* TrianglesData */,
 				DECCF4D21DF462F400D85FD0 /* TrianglesDataSmall */,
+				DECCF4DE1DF46E2500D85FD0 /* TriangleDataSmallReal */,
 			);
 			path = Day3;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 			files = (
 				DECCF4D51DF462F400D85FD0 /* TrianglesData in Resources */,
 				DECCF4B71DF4485C00D85FD0 /* LaunchScreen.storyboard in Resources */,
+				DECCF4DF1DF46E2500D85FD0 /* TriangleDataSmallReal in Resources */,
 				DECCF4B41DF4485C00D85FD0 /* Assets.xcassets in Resources */,
 				DECCF4D41DF462F400D85FD0 /* TrianglesDataSmall in Resources */,
 				DECCF4B21DF4485C00D85FD0 /* Main.storyboard in Resources */,
