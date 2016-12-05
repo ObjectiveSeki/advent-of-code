@@ -3,13 +3,20 @@ import Foundation
 
 
 struct Room {
+    let encryptedName: EncryptedName
     let letters: Letters
     let sectorID: SectorID
     let checksum: String
     init(encryptedRoom: String) {
+        encryptedName = EncryptedName(encryptedRoom: encryptedRoom)
         letters = Letters(encryptedRoom: encryptedRoom)
         sectorID = SectorID(encryptedRoom: encryptedRoom)
-        checksum = encryptedRoom.slice(from: "[", to: "]")!
+        if let slice = encryptedRoom.slice(from: "[", to: "]") {
+            checksum = slice
+        }
+        else {
+            checksum = ""
+        }
     }
     
     func isReal() -> Bool {
@@ -27,5 +34,20 @@ struct Room {
         else {
             return false
         }
+    }
+    
+    func realName() -> String {
+        var tmpString = ""
+        for s in encryptedName.string.characters {
+            if s == " " {
+                tmpString.append(s)
+                continue
+            }
+            let unicode = s.unicodeScalarCodePoint()
+            let x = (Int(unicode) - 97 + sectorID.number) % 26
+            let newUnicode = x + 97
+            tmpString += UnicodeScalar(newUnicode)!.description
+        }
+        return tmpString
     }
 }

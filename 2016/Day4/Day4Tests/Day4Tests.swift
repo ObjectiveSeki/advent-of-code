@@ -50,5 +50,11 @@ class Day4Tests: XCTestCase {
     }
     
     
+    func testDercyptRoomName() {
+        let room = Room(encryptedRoom: "qzmt-zixmtkozy-ivhz-343")
+        dump(room.realName())
+        XCTAssert(room.realName() == "very encrypted name")
+    }
+    
     
 }

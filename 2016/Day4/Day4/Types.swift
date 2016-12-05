@@ -51,3 +51,20 @@ struct SectorID {
         number = Int(components2.first!)!
     }
 }
+
+struct EncryptedName {
+    let string: String
+    init(encryptedRoom: String) {
+        var tmpName = ""
+        for char in encryptedRoom.characters {
+            if let _ = Int(String(char)) { break }
+            if char == "-" {
+                tmpName += " "
+                continue
+            }
+            tmpName += String(char)
+        }
+        string = String(tmpName.characters.dropLast())
+    }
+}
+
