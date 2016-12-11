@@ -38,4 +38,12 @@ class Day6Tests: XCTestCase {
         XCTAssert(result == "easterbunny")
     }
     
+    func testMessageFromFile_ReadsAdvent_AnTheRealCorrectedMessage() {
+        let messageFileReader = MessageFileReader()
+        let message = messageFileReader.message(fromFile: "TestData")
+        
+        let sut = MessageInterpreter(repeatingMessageSignal: message)
+        let result = sut.realErrorCorrectedMessage()
+        XCTAssert(result == "advent")
+    }
 }

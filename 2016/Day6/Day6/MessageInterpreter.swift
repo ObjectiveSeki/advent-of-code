@@ -33,6 +33,19 @@ struct MessageInterpreter {
         return message
     }
     
+    func realErrorCorrectedMessage() -> String {
+        var message = ""
+        let length = Int(list.first!.characters.count - 1)
+        for i in 0...length {
+            let noise = noisyLetters(atColumn: i)
+            let letters = Letters(noisyLetters: noise)
+            if let letter = letters.leastCommon()?.character.description {
+                message += letter
+            }
+        }
+        return message
+    }
+    
     private func noisyLetters(atColumn column: Int) -> String {
         var noisyLetters = ""
         for message in list {

@@ -37,4 +37,14 @@ struct Letters {
         }
         return sorted.first
     }
+    
+    func leastCommon() -> Letter? {
+        let sorted = list.sorted {
+            if ($0.count == $1.count) {
+                return $0.character < $1.character
+            }
+            return $0.count > $1.count
+        }
+        return sorted.last
+    }
 }
