@@ -34,7 +34,7 @@ struct Screen {
     }
     
     mutating func light(with rect: Rect) {
-        for i in 0...rect.y-1 {
+        for i in 0..<rect.y {
             for j in 0..<rect.x {
                 display[i][j] = "#"
             }
