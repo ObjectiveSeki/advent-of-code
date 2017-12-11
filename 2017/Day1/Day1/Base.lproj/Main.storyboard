@@ -18,28 +18,67 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="93m-RA-kb9">
-                                <rect key="frame" x="140" y="191" width="95" height="58"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nsi-4Y-dC3">
+                                <rect key="frame" x="16" y="179" width="343" height="58"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="58" id="aac-Qb-0HC"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <state key="normal" title="GO"/>
+                                <state key="normal" title="Halfway Around"/>
                                 <connections>
-                                    <action selector="go:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bJS-JZ-UOc"/>
+                                    <action selector="halfwayAround:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6O0-Ar-tWf"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nFd-vK-ntr">
-                                <rect key="frame" x="166" y="299" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="😱" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nFd-vK-ntr">
+                                <rect key="frame" x="16" y="115" width="343" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="6Ol-rg-hTe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="93m-RA-kb9">
+                                <rect key="frame" x="16" y="49" width="343" height="58"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="58" id="wBs-Lo-eqJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="next:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fwe-ck-QRe"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="😁" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fiw-fY-FKd">
+                                <rect key="frame" x="16" y="245" width="343" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="9Ax-4s-Rsd"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fiw-fY-FKd" firstAttribute="top" secondItem="nsi-4Y-dC3" secondAttribute="bottom" constant="8" id="4ZV-PA-b9n"/>
+                            <constraint firstItem="fiw-fY-FKd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Bch-So-hUt"/>
+                            <constraint firstItem="nsi-4Y-dC3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="K6N-c9-6oW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="93m-RA-kb9" secondAttribute="trailing" constant="16" id="UUD-4G-qqz"/>
+                            <constraint firstItem="nsi-4Y-dC3" firstAttribute="top" secondItem="nFd-vK-ntr" secondAttribute="bottom" constant="43" id="XH0-zs-GBS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fiw-fY-FKd" secondAttribute="trailing" constant="16" id="bo3-ee-h6I"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nsi-4Y-dC3" secondAttribute="trailing" constant="16" id="coH-Jx-4g1"/>
+                            <constraint firstItem="nFd-vK-ntr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="hBo-LI-5R4"/>
+                            <constraint firstItem="nFd-vK-ntr" firstAttribute="top" secondItem="93m-RA-kb9" secondAttribute="bottom" constant="8" id="mdb-jo-fpa"/>
+                            <constraint firstItem="93m-RA-kb9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="29" id="ns3-jS-phu"/>
+                            <constraint firstItem="93m-RA-kb9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="rhQ-Zd-dg8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nFd-vK-ntr" secondAttribute="trailing" constant="16" id="uQT-gW-unM"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="label" destination="nFd-vK-ntr" id="oPv-YR-q9C"/>
+                        <outlet property="labelHalfway" destination="fiw-fY-FKd" id="NxR-Gr-rJh"/>
+                        <outlet property="labelNext" destination="nFd-vK-ntr" id="07N-Km-mAh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

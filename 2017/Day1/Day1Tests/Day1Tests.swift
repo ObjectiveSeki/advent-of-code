@@ -13,25 +13,62 @@ class Day1Tests: XCTestCase {
         super.tearDown()
     }
     
-    func testSum_1122() {
+    
+    // MARK: Sum Next
+    
+    func testSumNext_1122() {
         let sut = Captcha(sequence: [1, 1, 2, 2])
-        XCTAssert(sut.sum() == 3)
+        XCTAssert(sut.sumNext() == 3)
     }
     
-    func testSum_1111() {
+    func testSumNext_1111() {
         let sut = Captcha(sequence: [1, 1, 1, 1])
-        XCTAssert(sut.sum() == 4)
+        XCTAssert(sut.sumNext() == 4)
     }
     
-    func testSum_1234() {
+    func testSumNext_1234() {
         let sut = Captcha(sequence: [1, 2, 3, 4])
-        XCTAssert(sut.sum() == 0)
+        XCTAssert(sut.sumNext() == 0)
     }
     
-    func testSum_91212129() {
+    func testSumNext_91212129() {
         let sut = Captcha(sequence: [9, 1, 2, 1, 2, 1, 2, 9])
-        XCTAssert(sut.sum() == 9)
+        XCTAssert(sut.sumNext() == 9)
     }
+    
+    
+    // MARK: Sum HalfwayAround
+    
+    func testSumHalyway_1212() {
+        let sut = Captcha(sequence: [1, 2, 1, 2])
+        XCTAssert(sut.sumHalfwayAround() == 6)
+    }
+    
+    func testSumHalyway_1221() {
+        let sut = Captcha(sequence: [1, 2, 2, 1])
+        XCTAssert(sut.sumHalfwayAround() == 0)
+    }
+    
+    func testSumHalyway_123425() {
+        let array = IntArrayMaker().giveMeArray(fromString: "123425")
+        let sut = Captcha(sequence: array)
+        XCTAssert(sut.sumHalfwayAround() == 4)
+    }
+    
+    func testSumHalyway_123123() {
+        let array = IntArrayMaker().giveMeArray(fromString: "123123")
+        let sut = Captcha(sequence: array)
+        XCTAssert(sut.sumHalfwayAround() == 12)
+    }
+    
+    func testSumHalyway_12131415() {
+        let array = IntArrayMaker().giveMeArray(fromString: "12131415")
+        let sut = Captcha(sequence: array)
+        XCTAssert(sut.sumHalfwayAround() == 4)
+    }
+    
+    
+    // MARK: File Reader
     
     func testFileReader() {
         struct FR: FileReader {}

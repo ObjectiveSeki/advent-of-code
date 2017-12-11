@@ -4,24 +4,30 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var labelNext: UILabel!
+    @IBOutlet weak var labelHalfway: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func go(_ sender: Any) {
+    @IBAction func next(_ sender: Any) {
         let array = IntArrayMaker().giveMeArray(fromFile: "Input")
         let captcha = Captcha(sequence: array)
-        let sum = captcha.sum()
+        let sum = captcha.sumNext()
         print(sum)
-        label.text = String(sum)
+        labelNext.text = String(sum)
     }
     
+    @IBAction func halfwayAround(_ sender: Any) {
+        let array = IntArrayMaker().giveMeArray(fromFile: "Input")
+        let captcha = Captcha(sequence: array)
+        let sum = captcha.sumHalfwayAround()
+        print(sum)
+        labelHalfway.text = String(sum)
+    }
 }
