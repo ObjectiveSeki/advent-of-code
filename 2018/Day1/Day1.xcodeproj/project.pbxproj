@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE0A428021B56A3700AD8D18 /* FrequencyCalibrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A427F21B56A3700AD8D18 /* FrequencyCalibrator.swift */; };
 		DEBBE3C121B532E3007D9994 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBBE3C021B532E3007D9994 /* AppDelegate.swift */; };
 		DEBBE3C321B532E3007D9994 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBBE3C221B532E3007D9994 /* ViewController.swift */; };
 		DEBBE3C621B532E3007D9994 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEBBE3C421B532E3007D9994 /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE0A427F21B56A3700AD8D18 /* FrequencyCalibrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyCalibrator.swift; sourceTree = "<group>"; };
 		DEBBE3BD21B532E3007D9994 /* Day1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Day1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEBBE3C021B532E3007D9994 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEBBE3C221B532E3007D9994 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 			children = (
 				DEBBE3C021B532E3007D9994 /* AppDelegate.swift */,
 				DEBBE3C221B532E3007D9994 /* ViewController.swift */,
+				DE0A427F21B56A3700AD8D18 /* FrequencyCalibrator.swift */,
 				DEBBE3F521B538DB007D9994 /* FileReader.swift */,
 				DEBBE3E021B53616007D9994 /* Input */,
 				DEBBE3C421B532E3007D9994 /* Main.storyboard */,
@@ -205,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEBBE3F621B538DB007D9994 /* FileReader.swift in Sources */,
+				DE0A428021B56A3700AD8D18 /* FrequencyCalibrator.swift in Sources */,
 				DEBBE3C321B532E3007D9994 /* ViewController.swift in Sources */,
 				DEBBE3C121B532E3007D9994 /* AppDelegate.swift in Sources */,
 			);
