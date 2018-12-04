@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DEBBE3BC21B532E3007D9994"
-               BuildableName = "Day1.app"
-               BlueprintName = "Day1"
-               ReferencedContainer = "container:Day1.xcodeproj">
+               BlueprintIdentifier = "DE0A428A21B6D91E00AD8D18"
+               BuildableName = "AllDays.app"
+               BlueprintName = "AllDays"
+               ReferencedContainer = "container:AllDays.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DEBBE3D021B532E7007D9994"
-               BuildableName = "Day1Tests.xctest"
-               BlueprintName = "Day1Tests"
-               ReferencedContainer = "container:Day1.xcodeproj">
+               BlueprintIdentifier = "DE0A429E21B6D92100AD8D18"
+               BuildableName = "AllDaysTests.xctest"
+               BlueprintName = "AllDaysTests"
+               ReferencedContainer = "container:AllDays.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DEBBE3BC21B532E3007D9994"
-            BuildableName = "Day1.app"
-            BlueprintName = "Day1"
-            ReferencedContainer = "container:Day1.xcodeproj">
+            BlueprintIdentifier = "DE0A428A21B6D91E00AD8D18"
+            BuildableName = "AllDays.app"
+            BlueprintName = "AllDays"
+            ReferencedContainer = "container:AllDays.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -65,10 +65,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DEBBE3BC21B532E3007D9994"
-            BuildableName = "Day1.app"
-            BlueprintName = "Day1"
-            ReferencedContainer = "container:Day1.xcodeproj">
+            BlueprintIdentifier = "DE0A428A21B6D91E00AD8D18"
+            BuildableName = "AllDays.app"
+            BlueprintName = "AllDays"
+            ReferencedContainer = "container:AllDays.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -84,10 +84,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DEBBE3BC21B532E3007D9994"
-            BuildableName = "Day1.app"
-            BlueprintName = "Day1"
-            ReferencedContainer = "container:Day1.xcodeproj">
+            BlueprintIdentifier = "DE0A428A21B6D91E00AD8D18"
+            BuildableName = "AllDays.app"
+            BlueprintName = "AllDays"
+            ReferencedContainer = "container:AllDays.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

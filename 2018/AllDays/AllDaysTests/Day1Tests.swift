@@ -1,6 +1,6 @@
 
 import XCTest
-@testable import Day1
+@testable import AllDays
 
 
 class Day1Tests: XCTestCase {

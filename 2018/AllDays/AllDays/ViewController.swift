@@ -20,7 +20,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @IBOutlet weak var tableView: UITableView!
     var days = [
         Day(name: "Day 1", file: "InputDay1"),
-        Day(name: "Day 2", file: "InputDay2"),
+        Day(name: "Day 2", file: "InputDay1"),
     ]
 
     override func viewDidLoad() {
@@ -37,6 +37,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         if segue.identifier == "DayDetails" {
             let vc = segue.destination as! DayViewController
             vc.day = days[sender as! Int]
+            switch sender as! Int {
+            case 0:
+                vc.generator = FrequencyCalibrator()
+            default:
+                vc.generator = FrequencyCalibrator()
+            }
         }
     }
 

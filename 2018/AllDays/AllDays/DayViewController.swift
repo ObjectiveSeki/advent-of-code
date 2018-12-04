@@ -3,20 +3,8 @@ import UIKit
 
 
 protocol Generatable {
-    func generatePartOne() -> String
-    func generatePartTwo() -> String
-}
-
-struct GenTest: Generatable {
-    func generatePartOne() -> String {
-        return "Yohh"
-    }
-
-    func generatePartTwo() -> String {
-        return ":)))))"
-    }
-
-
+    func generatePartOne(fromFile input: String) -> String
+    func generatePartTwo(fromFile input: String) -> String
 }
 
 class DayViewController: UIViewController {
@@ -25,7 +13,7 @@ class DayViewController: UIViewController {
     @IBOutlet weak var answerPart2: UITextField!
 
     var day: Day!
-    var generator: Generatable! = GenTest()
+    var generator: Generatable!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,11 +21,17 @@ class DayViewController: UIViewController {
     }
 
     @IBAction func generatePart1Tapped(_ sender: Any) {
-        answerPart1.text = generator.generatePartOne()
+        answerPart1.text = generator.generatePartOne(fromFile: day.file)
     }
 
     @IBAction func generatePart2Tapped(_ sender: Any) {
-        answerPart2.text = generator.generatePartTwo()
+        let queue = DispatchQueue.init(label: "background", qos: .background)
+        queue.async {
+            let text = self.generator.generatePartTwo(fromFile: self.day.file)
+            DispatchQueue.main.async {
+                self.answerPart2.text = text
+            }
+        }
     }
 
 }

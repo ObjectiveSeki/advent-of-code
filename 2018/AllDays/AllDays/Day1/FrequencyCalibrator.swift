@@ -2,20 +2,19 @@
 import Foundation
 
 
-struct FrequencyCalibrator: FileReader {
+struct FrequencyCalibrator: FileReader, Generatable {
 
-    func resultingFrequency(fromFile input: String) -> Int {
+    func generatePartOne(fromFile input: String) -> String {
         let array = stringArray(fromFile: input).map { Int($0)! }
-        return resultingFrequency(from: array)
+        return String(resultingFrequency(from: array))
     }
 
-    func firstFrequencyReachedTwice(fromFile input: String) -> Int {
+    func generatePartTwo(fromFile input: String) -> String {
         let array = stringArray(fromFile: input).map { Int($0)! }
-        print(array)
-        return firstFrequencyReachedTwice(from: array)
+        return String(firstFrequencyReachedTwice(from: array))
     }
 
-    
+
     func resultingFrequency(from array: [Int]) -> Int {
         var result = 0
         for frequencyChange in array {
@@ -29,7 +28,6 @@ struct FrequencyCalibrator: FileReader {
         var calculatedFrequencies: [Int] = [result]
         while (true) {
             i += 1
-            print("i: \(i)")
             for frequencyChange in array {
                 result += frequencyChange
                 if calculatedFrequencies.contains(result) {
