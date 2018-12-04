@@ -20,7 +20,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @IBOutlet weak var tableView: UITableView!
     var days = [
         Day(name: "Day 1", file: "InputDay1"),
-        Day(name: "Day 2", file: "InputDay1"),
+        Day(name: "Day 2", file: "InputDay2"),
     ]
 
     override func viewDidLoad() {
@@ -40,6 +40,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             switch sender as! Int {
             case 0:
                 vc.generator = FrequencyCalibrator()
+            case 1:
+                vc.generator = IDScanner()
             default:
                 vc.generator = FrequencyCalibrator()
             }

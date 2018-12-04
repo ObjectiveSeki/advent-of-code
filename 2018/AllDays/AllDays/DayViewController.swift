@@ -21,7 +21,14 @@ class DayViewController: UIViewController {
     }
 
     @IBAction func generatePart1Tapped(_ sender: Any) {
-        answerPart1.text = generator.generatePartOne(fromFile: day.file)
+        let queue = DispatchQueue.init(label: "background", qos: .background)
+        queue.async {
+            let text = self.generator.generatePartOne(fromFile: self.day.file)
+            DispatchQueue.main.async {
+                print(text)
+                self.answerPart1.text = text
+            }
+        }
     }
 
     @IBAction func generatePart2Tapped(_ sender: Any) {
@@ -29,6 +36,7 @@ class DayViewController: UIViewController {
         queue.async {
             let text = self.generator.generatePartTwo(fromFile: self.day.file)
             DispatchQueue.main.async {
+                print(text)
                 self.answerPart2.text = text
             }
         }
