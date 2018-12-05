@@ -38,4 +38,28 @@ class Day2Tests: XCTestCase {
         let result = sut.checksum(from: array)
         XCTAssertEqual(result, 12)
     }
+
+    func testAlmostIdentical1() {
+        let result = sut.almostIdentical("fghij", "fguij")
+        XCTAssertEqual(result, "fgij")
+    }
+    func testAlmostIdentical2() {
+        let result = sut.almostIdentical("abcde", "axcye")
+        XCTAssertNil(result)
+    }
+
+    func testAlmostIdentical3() {
+        let array = [
+            "abcde",
+            "fghij",
+            "klmno",
+            "pqrst",
+            "fguij",
+            "axcye",
+            "wvxyzMM",
+            ]
+        let result = sut.almostIdentical(from: array)
+        XCTAssertEqual(result, "fgij")
+    }
+    
 }
