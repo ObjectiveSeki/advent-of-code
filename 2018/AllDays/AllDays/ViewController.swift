@@ -21,6 +21,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     var days = [
         Day(name: "Day 1", file: "InputDay1"),
         Day(name: "Day 2", file: "InputDay2"),
+        Day(name: "Day 3", file: "InputDay3"),
     ]
 
     override func viewDidLoad() {
@@ -42,6 +43,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 vc.generator = FrequencyCalibrator()
             case 1:
                 vc.generator = IDScanner()
+            case 2:
+                vc.generator = FabricGuru(size: (x: 1000, y: 1000))
             default:
                 vc.generator = FrequencyCalibrator()
             }

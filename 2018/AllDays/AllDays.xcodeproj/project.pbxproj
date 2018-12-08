@@ -20,6 +20,9 @@
 		DE0A42B821B7265200AD8D18 /* Day2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A42B721B7265200AD8D18 /* Day2Tests.swift */; };
 		DE0A42BE21B742BE00AD8D18 /* IDScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A42BD21B742BE00AD8D18 /* IDScanner.swift */; };
 		DE0A42C021B7431900AD8D18 /* InputDay2 in Resources */ = {isa = PBXBuildFile; fileRef = DE0A42BF21B7431900AD8D18 /* InputDay2 */; };
+		DE0A42C321B8782A00AD8D18 /* Day3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A42C221B8782A00AD8D18 /* Day3Tests.swift */; };
+		DE0A42C521B8836C00AD8D18 /* FabricGuru.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A42C421B8836C00AD8D18 /* FabricGuru.swift */; };
+		DE0A42C821BC628200AD8D18 /* InputDay3 in Resources */ = {isa = PBXBuildFile; fileRef = DE0A42C721BC628200AD8D18 /* InputDay3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,9 @@
 		DE0A42B721B7265200AD8D18 /* Day2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2Tests.swift; sourceTree = "<group>"; };
 		DE0A42BD21B742BE00AD8D18 /* IDScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDScanner.swift; sourceTree = "<group>"; };
 		DE0A42BF21B7431900AD8D18 /* InputDay2 */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay2; sourceTree = "<group>"; };
+		DE0A42C221B8782A00AD8D18 /* Day3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3Tests.swift; sourceTree = "<group>"; };
+		DE0A42C421B8836C00AD8D18 /* FabricGuru.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabricGuru.swift; sourceTree = "<group>"; };
+		DE0A42C721BC628200AD8D18 /* InputDay3 */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,7 @@
 				DE0A429221B6D91E00AD8D18 /* Main.storyboard */,
 				DE0A42B621B71E9800AD8D18 /* Day1 */,
 				DE0A42C121B7433100AD8D18 /* Day2 */,
+				DE0A42C921BC66D600AD8D18 /* Day3 */,
 				DE0A429521B6D92100AD8D18 /* Assets.xcassets */,
 				DE0A429721B6D92100AD8D18 /* LaunchScreen.storyboard */,
 				DE0A429A21B6D92100AD8D18 /* Info.plist */,
@@ -110,6 +117,7 @@
 			children = (
 				DE0A42A321B6D92100AD8D18 /* Day1Tests.swift */,
 				DE0A42B721B7265200AD8D18 /* Day2Tests.swift */,
+				DE0A42C221B8782A00AD8D18 /* Day3Tests.swift */,
 				DE0A42A521B6D92100AD8D18 /* Info.plist */,
 			);
 			path = AllDaysTests;
@@ -131,6 +139,15 @@
 				DE0A42BF21B7431900AD8D18 /* InputDay2 */,
 			);
 			path = Day2;
+			sourceTree = "<group>";
+		};
+		DE0A42C921BC66D600AD8D18 /* Day3 */ = {
+			isa = PBXGroup;
+			children = (
+				DE0A42C421B8836C00AD8D18 /* FabricGuru.swift */,
+				DE0A42C721BC628200AD8D18 /* InputDay3 */,
+			);
+			path = Day3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +234,7 @@
 				DE0A42B521B71CA900AD8D18 /* InputDay1 in Resources */,
 				DE0A42C021B7431900AD8D18 /* InputDay2 in Resources */,
 				DE0A429921B6D92100AD8D18 /* LaunchScreen.storyboard in Resources */,
+				DE0A42C821BC628200AD8D18 /* InputDay3 in Resources */,
 				DE0A429621B6D92100AD8D18 /* Assets.xcassets in Resources */,
 				DE0A429421B6D91E00AD8D18 /* Main.storyboard in Resources */,
 			);
@@ -242,6 +260,7 @@
 				DE0A42BE21B742BE00AD8D18 /* IDScanner.swift in Sources */,
 				DE0A42B121B7173100AD8D18 /* FileReader.swift in Sources */,
 				DE0A42AF21B713C100AD8D18 /* DayViewController.swift in Sources */,
+				DE0A42C521B8836C00AD8D18 /* FabricGuru.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +270,7 @@
 			files = (
 				DE0A42A421B6D92100AD8D18 /* Day1Tests.swift in Sources */,
 				DE0A42B821B7265200AD8D18 /* Day2Tests.swift in Sources */,
+				DE0A42C321B8782A00AD8D18 /* Day3Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
