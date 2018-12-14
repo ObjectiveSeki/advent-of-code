@@ -52,4 +52,15 @@ class Guard {
         return sleepyMinute
     }
 
+    var numberOfMinuteSpentMostAsleep: Int {
+        var count = 0
+        let minute = minuteSpentMostAsleep
+        for shift in loggedSleepPerShift {
+            if shift[minute] == "#" {
+                count += 1
+            }
+        }
+        return count
+    }
+
 }

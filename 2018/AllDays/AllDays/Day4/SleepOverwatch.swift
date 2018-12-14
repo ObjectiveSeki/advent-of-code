@@ -7,7 +7,6 @@ class SleepOverwatch: FileReader, Generatable {
     func generatePartOne(fromFile input: String) -> String {
         let array = orderedArray(fromFile: input)
         for line in array {
-//            print(line)
             parseLine(line)
         }
         let sleepyGuard = guardWithMostSleep()
@@ -15,7 +14,8 @@ class SleepOverwatch: FileReader, Generatable {
     }
 
     func generatePartTwo(fromFile input: String) -> String {
-        return ""
+        let sleepyGuard = guardMostFrequentSleeperOnAnyMinute()
+        return String(sleepyGuard.minuteSpentMostAsleep * sleepyGuard.ID)
     }
 
 
@@ -90,11 +90,14 @@ class SleepOverwatch: FileReader, Generatable {
                 mostSleepyGuard = g
             }
         }
-        print("Guard: \(mostSleepyGuard.ID)")
-        for shift in mostSleepyGuard.getLoggedSleep {
-            print(shift)
-        }
         return mostSleepyGuard
+    }
+
+    func guardMostFrequentSleeperOnAnyMinute() -> Guard {
+        let gs = guards.sorted { (g1, g2) -> Bool in
+            return g1.numberOfMinuteSpentMostAsleep > g2.numberOfMinuteSpentMostAsleep
+        }
+        return gs.first!
     }
 
 }
