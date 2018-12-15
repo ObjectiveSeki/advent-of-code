@@ -13,11 +13,11 @@ extension FileReader {
 
     func string(fromFile name: String) -> String? {
         let url = bundleURL(from: name)
-        let s = try? String(contentsOf: url)
-        return s?.trimmingCharacters(in: .whitespacesAndNewlines)
+        let s = try! String(contentsOf: url)
+        return s.trimmingCharacters(in: .whitespacesAndNewlines)
     }
     private func bundleURL(from name: String) -> URL {
-        let file = Bundle.main.path(forResource: name, ofType: nil)
-        return URL(fileURLWithPath: file!)
+        let file = Bundle.main.path(forResource: name, ofType: nil)!
+        return URL(fileURLWithPath: file)
     }
 }

@@ -16,6 +16,11 @@
 		DE0A144F21C5258700CAA861 /* Day5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A144E21C5258700CAA861 /* Day5Tests.swift */; };
 		DE0A145121C5309F00CAA861 /* InputDay5 in Resources */ = {isa = PBXBuildFile; fileRef = DE0A145021C5309F00CAA861 /* InputDay5 */; };
 		DE0A145321C530DE00CAA861 /* AlchemicalReduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A145221C530DE00CAA861 /* AlchemicalReduction.swift */; };
+		DE0A145521C5A3DB00CAA861 /* StoryDay1 in Resources */ = {isa = PBXBuildFile; fileRef = DE0A145421C5A3DB00CAA861 /* StoryDay1 */; };
+		DE0A145721C5A66E00CAA861 /* StoryDay2 in Resources */ = {isa = PBXBuildFile; fileRef = DE0A145621C5A66E00CAA861 /* StoryDay2 */; };
+		DE0A145921C5A6A200CAA861 /* StoryDay3 in Resources */ = {isa = PBXBuildFile; fileRef = DE0A145821C5A6A200CAA861 /* StoryDay3 */; };
+		DE0A145B21C5A6E200CAA861 /* StoryDay4 in Resources */ = {isa = PBXBuildFile; fileRef = DE0A145A21C5A6E200CAA861 /* StoryDay4 */; };
+		DE0A145E21C5A75800CAA861 /* StoryDay5 in Resources */ = {isa = PBXBuildFile; fileRef = DE0A145D21C5A75800CAA861 /* StoryDay5 */; };
 		DE0A428F21B6D91E00AD8D18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A428E21B6D91E00AD8D18 /* AppDelegate.swift */; };
 		DE0A429121B6D91E00AD8D18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A429021B6D91E00AD8D18 /* ViewController.swift */; };
 		DE0A429421B6D91E00AD8D18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0A429221B6D91E00AD8D18 /* Main.storyboard */; };
@@ -55,6 +60,11 @@
 		DE0A144E21C5258700CAA861 /* Day5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day5Tests.swift; sourceTree = "<group>"; };
 		DE0A145021C5309F00CAA861 /* InputDay5 */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay5; sourceTree = "<group>"; };
 		DE0A145221C530DE00CAA861 /* AlchemicalReduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlchemicalReduction.swift; sourceTree = "<group>"; };
+		DE0A145421C5A3DB00CAA861 /* StoryDay1 */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoryDay1; sourceTree = "<group>"; };
+		DE0A145621C5A66E00CAA861 /* StoryDay2 */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoryDay2; sourceTree = "<group>"; };
+		DE0A145821C5A6A200CAA861 /* StoryDay3 */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoryDay3; sourceTree = "<group>"; };
+		DE0A145A21C5A6E200CAA861 /* StoryDay4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoryDay4; sourceTree = "<group>"; };
+		DE0A145D21C5A75800CAA861 /* StoryDay5 */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoryDay5; sourceTree = "<group>"; };
 		DE0A428B21B6D91E00AD8D18 /* AllDays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllDays.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE0A428E21B6D91E00AD8D18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE0A429021B6D91E00AD8D18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,11 +111,22 @@
 			children = (
 				DE0A144821C457FE00CAA861 /* Guard.swift */,
 				DE0A144621C052D400CAA861 /* SleepOverwatch.swift */,
+				DE0A144C21C4590600CAA861 /* InputDay4 */,
+				DE0A145A21C5A6E200CAA861 /* StoryDay4 */,
 				DE0A144121C0482500CAA861 /* InputDay4TestOrdered */,
 				DE0A144421C0488300CAA861 /* InputDay4TestDisordered */,
-				DE0A144C21C4590600CAA861 /* InputDay4 */,
 			);
 			path = Day4;
+			sourceTree = "<group>";
+		};
+		DE0A145C21C5A73300CAA861 /* Day5 */ = {
+			isa = PBXGroup;
+			children = (
+				DE0A145221C530DE00CAA861 /* AlchemicalReduction.swift */,
+				DE0A145021C5309F00CAA861 /* InputDay5 */,
+				DE0A145D21C5A75800CAA861 /* StoryDay5 */,
+			);
+			path = Day5;
 			sourceTree = "<group>";
 		};
 		DE0A428221B6D91E00AD8D18 = {
@@ -132,15 +153,14 @@
 				DE0A428E21B6D91E00AD8D18 /* AppDelegate.swift */,
 				DE0A429021B6D91E00AD8D18 /* ViewController.swift */,
 				DE0A42AE21B713C100AD8D18 /* DayViewController.swift */,
-				DE0A42B021B7173100AD8D18 /* FileReader.swift */,
-				DE0A144A21C458C200CAA861 /* Extensions.swift */,
-				DE0A145221C530DE00CAA861 /* AlchemicalReduction.swift */,
-				DE0A145021C5309F00CAA861 /* InputDay5 */,
-				DE0A429221B6D91E00AD8D18 /* Main.storyboard */,
 				DE0A42B621B71E9800AD8D18 /* Day1 */,
 				DE0A42C121B7433100AD8D18 /* Day2 */,
 				DE0A42C921BC66D600AD8D18 /* Day3 */,
 				DE0A144321C0483800CAA861 /* Day4 */,
+				DE0A145C21C5A73300CAA861 /* Day5 */,
+				DE0A42B021B7173100AD8D18 /* FileReader.swift */,
+				DE0A144A21C458C200CAA861 /* Extensions.swift */,
+				DE0A429221B6D91E00AD8D18 /* Main.storyboard */,
 				DE0A429521B6D92100AD8D18 /* Assets.xcassets */,
 				DE0A429721B6D92100AD8D18 /* LaunchScreen.storyboard */,
 				DE0A429A21B6D92100AD8D18 /* Info.plist */,
@@ -166,6 +186,7 @@
 			children = (
 				DE0A42B221B7175100AD8D18 /* FrequencyCalibrator.swift */,
 				DE0A42B421B71CA800AD8D18 /* InputDay1 */,
+				DE0A145421C5A3DB00CAA861 /* StoryDay1 */,
 			);
 			path = Day1;
 			sourceTree = "<group>";
@@ -175,6 +196,7 @@
 			children = (
 				DE0A42BD21B742BE00AD8D18 /* IDScanner.swift */,
 				DE0A42BF21B7431900AD8D18 /* InputDay2 */,
+				DE0A145621C5A66E00CAA861 /* StoryDay2 */,
 			);
 			path = Day2;
 			sourceTree = "<group>";
@@ -184,6 +206,7 @@
 			children = (
 				DE0A42C421B8836C00AD8D18 /* FabricGuru.swift */,
 				DE0A42C721BC628200AD8D18 /* InputDay3 */,
+				DE0A145821C5A6A200CAA861 /* StoryDay3 */,
 			);
 			path = Day3;
 			sourceTree = "<group>";
@@ -271,8 +294,13 @@
 			files = (
 				DE0A144521C0488300CAA861 /* InputDay4TestDisordered in Resources */,
 				DE0A42B521B71CA900AD8D18 /* InputDay1 in Resources */,
+				DE0A145721C5A66E00CAA861 /* StoryDay2 in Resources */,
+				DE0A145921C5A6A200CAA861 /* StoryDay3 in Resources */,
 				DE0A42C021B7431900AD8D18 /* InputDay2 in Resources */,
 				DE0A144221C0482500CAA861 /* InputDay4TestOrdered in Resources */,
+				DE0A145B21C5A6E200CAA861 /* StoryDay4 in Resources */,
+				DE0A145521C5A3DB00CAA861 /* StoryDay1 in Resources */,
+				DE0A145E21C5A75800CAA861 /* StoryDay5 in Resources */,
 				DE0A145121C5309F00CAA861 /* InputDay5 in Resources */,
 				DE0A429921B6D92100AD8D18 /* LaunchScreen.storyboard in Resources */,
 				DE0A42C821BC628200AD8D18 /* InputDay3 in Resources */,

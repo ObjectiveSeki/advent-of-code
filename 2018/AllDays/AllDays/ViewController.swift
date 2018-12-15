@@ -10,8 +10,10 @@ import UIKit
 
 
 struct Day {
-    let name: String
-    let file: String
+    let number: Int
+    var name: String { return "Day \(number)" }
+    var story: String { return "StoryDay\(number)" }
+    var file: String { return "InputDay\(number)" }
 }
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
@@ -19,11 +21,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     @IBOutlet weak var tableView: UITableView!
     var days = [
-        Day(name: "Day 1", file: "InputDay1"),
-        Day(name: "Day 2", file: "InputDay2"),
-        Day(name: "Day 3", file: "InputDay3"),
-        Day(name: "Day 4", file: "InputDay4"),
-        Day(name: "Day 5", file: "InputDay5"),
+        Day(number: 1),
+        Day(number: 2),
+        Day(number: 3),
+        Day(number: 4),
+        Day(number: 5),
     ]
 
     override func viewDidLoad() {

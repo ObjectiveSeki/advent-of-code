@@ -7,8 +7,9 @@ protocol Generatable {
     func generatePartTwo(fromFile input: String) -> String
 }
 
-class DayViewController: UIViewController {
+class DayViewController: UIViewController, FileReader {
 
+    @IBOutlet weak var storyTextView: UITextView!
     @IBOutlet weak var answerPart1: UITextField!
     @IBOutlet weak var answerPart2: UITextField!
 
@@ -20,6 +21,7 @@ class DayViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = day.name
+        storyTextView.text = string(fromFile: day.story)
     }
 
     @IBAction func generatePart1Tapped(_ sender: Any) {
