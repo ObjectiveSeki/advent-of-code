@@ -23,6 +23,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         Day(name: "Day 2", file: "InputDay2"),
         Day(name: "Day 3", file: "InputDay3"),
         Day(name: "Day 4", file: "InputDay4"),
+        Day(name: "Day 5", file: "InputDay5"),
     ]
 
     override func viewDidLoad() {
@@ -48,6 +49,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 vc.generator = FabricGuru(size: (x: 1000, y: 1000))
             case 3:
                 vc.generator = SleepOverwatch()
+            case 4:
+                vc.generator = AlchemicalReduction()
             default:
                 vc.generator = FrequencyCalibrator()
             }

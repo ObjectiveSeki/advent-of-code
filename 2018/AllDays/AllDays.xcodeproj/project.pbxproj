@@ -13,6 +13,9 @@
 		DE0A144921C457FE00CAA861 /* Guard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A144821C457FE00CAA861 /* Guard.swift */; };
 		DE0A144B21C458C200CAA861 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A144A21C458C200CAA861 /* Extensions.swift */; };
 		DE0A144D21C4590600CAA861 /* InputDay4 in Resources */ = {isa = PBXBuildFile; fileRef = DE0A144C21C4590600CAA861 /* InputDay4 */; };
+		DE0A144F21C5258700CAA861 /* Day5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A144E21C5258700CAA861 /* Day5Tests.swift */; };
+		DE0A145121C5309F00CAA861 /* InputDay5 in Resources */ = {isa = PBXBuildFile; fileRef = DE0A145021C5309F00CAA861 /* InputDay5 */; };
+		DE0A145321C530DE00CAA861 /* AlchemicalReduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A145221C530DE00CAA861 /* AlchemicalReduction.swift */; };
 		DE0A428F21B6D91E00AD8D18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A428E21B6D91E00AD8D18 /* AppDelegate.swift */; };
 		DE0A429121B6D91E00AD8D18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A429021B6D91E00AD8D18 /* ViewController.swift */; };
 		DE0A429421B6D91E00AD8D18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0A429221B6D91E00AD8D18 /* Main.storyboard */; };
@@ -49,6 +52,9 @@
 		DE0A144821C457FE00CAA861 /* Guard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guard.swift; sourceTree = "<group>"; };
 		DE0A144A21C458C200CAA861 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		DE0A144C21C4590600CAA861 /* InputDay4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay4; sourceTree = "<group>"; };
+		DE0A144E21C5258700CAA861 /* Day5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day5Tests.swift; sourceTree = "<group>"; };
+		DE0A145021C5309F00CAA861 /* InputDay5 */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay5; sourceTree = "<group>"; };
+		DE0A145221C530DE00CAA861 /* AlchemicalReduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlchemicalReduction.swift; sourceTree = "<group>"; };
 		DE0A428B21B6D91E00AD8D18 /* AllDays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllDays.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE0A428E21B6D91E00AD8D18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE0A429021B6D91E00AD8D18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -128,6 +134,8 @@
 				DE0A42AE21B713C100AD8D18 /* DayViewController.swift */,
 				DE0A42B021B7173100AD8D18 /* FileReader.swift */,
 				DE0A144A21C458C200CAA861 /* Extensions.swift */,
+				DE0A145221C530DE00CAA861 /* AlchemicalReduction.swift */,
+				DE0A145021C5309F00CAA861 /* InputDay5 */,
 				DE0A429221B6D91E00AD8D18 /* Main.storyboard */,
 				DE0A42B621B71E9800AD8D18 /* Day1 */,
 				DE0A42C121B7433100AD8D18 /* Day2 */,
@@ -147,6 +155,7 @@
 				DE0A42B721B7265200AD8D18 /* Day2Tests.swift */,
 				DE0A42C221B8782A00AD8D18 /* Day3Tests.swift */,
 				DE0A42CA21BC795400AD8D18 /* Day4Tests.swift */,
+				DE0A144E21C5258700CAA861 /* Day5Tests.swift */,
 				DE0A42A521B6D92100AD8D18 /* Info.plist */,
 			);
 			path = AllDaysTests;
@@ -264,6 +273,7 @@
 				DE0A42B521B71CA900AD8D18 /* InputDay1 in Resources */,
 				DE0A42C021B7431900AD8D18 /* InputDay2 in Resources */,
 				DE0A144221C0482500CAA861 /* InputDay4TestOrdered in Resources */,
+				DE0A145121C5309F00CAA861 /* InputDay5 in Resources */,
 				DE0A429921B6D92100AD8D18 /* LaunchScreen.storyboard in Resources */,
 				DE0A42C821BC628200AD8D18 /* InputDay3 in Resources */,
 				DE0A144D21C4590600CAA861 /* InputDay4 in Resources */,
@@ -295,6 +305,7 @@
 				DE0A42BE21B742BE00AD8D18 /* IDScanner.swift in Sources */,
 				DE0A42B121B7173100AD8D18 /* FileReader.swift in Sources */,
 				DE0A42AF21B713C100AD8D18 /* DayViewController.swift in Sources */,
+				DE0A145321C530DE00CAA861 /* AlchemicalReduction.swift in Sources */,
 				DE0A42C521B8836C00AD8D18 /* FabricGuru.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +318,7 @@
 				DE0A42B821B7265200AD8D18 /* Day2Tests.swift in Sources */,
 				DE0A42C321B8782A00AD8D18 /* Day3Tests.swift in Sources */,
 				DE0A42CB21BC795400AD8D18 /* Day4Tests.swift in Sources */,
+				DE0A144F21C5258700CAA861 /* Day5Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

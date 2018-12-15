@@ -15,4 +15,7 @@ extension String {
         }
         return numbers.map { Int($0)! }
     }
+    func isUpper() -> Bool {
+        return self == self.uppercased()
+    }
 }
