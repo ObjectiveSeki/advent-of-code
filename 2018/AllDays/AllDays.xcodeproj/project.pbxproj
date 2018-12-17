@@ -21,6 +21,10 @@
 		DE0A145921C5A6A200CAA861 /* StoryDay3 in Resources */ = {isa = PBXBuildFile; fileRef = DE0A145821C5A6A200CAA861 /* StoryDay3 */; };
 		DE0A145B21C5A6E200CAA861 /* StoryDay4 in Resources */ = {isa = PBXBuildFile; fileRef = DE0A145A21C5A6E200CAA861 /* StoryDay4 */; };
 		DE0A145E21C5A75800CAA861 /* StoryDay5 in Resources */ = {isa = PBXBuildFile; fileRef = DE0A145D21C5A75800CAA861 /* StoryDay5 */; };
+		DE0A146021C5AB2F00CAA861 /* Day6Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A145F21C5AB2F00CAA861 /* Day6Tests.swift */; };
+		DE0A146221C5BB4C00CAA861 /* ChronalCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A146121C5BB4C00CAA861 /* ChronalCoordinates.swift */; };
+		DE0A146521C851BF00CAA861 /* InputDay6 in Resources */ = {isa = PBXBuildFile; fileRef = DE0A146421C851BF00CAA861 /* InputDay6 */; };
+		DE0A146721C853DF00CAA861 /* StoryDay6 in Resources */ = {isa = PBXBuildFile; fileRef = DE0A146621C853DF00CAA861 /* StoryDay6 */; };
 		DE0A428F21B6D91E00AD8D18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A428E21B6D91E00AD8D18 /* AppDelegate.swift */; };
 		DE0A429121B6D91E00AD8D18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A429021B6D91E00AD8D18 /* ViewController.swift */; };
 		DE0A429421B6D91E00AD8D18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0A429221B6D91E00AD8D18 /* Main.storyboard */; };
@@ -65,6 +69,10 @@
 		DE0A145821C5A6A200CAA861 /* StoryDay3 */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoryDay3; sourceTree = "<group>"; };
 		DE0A145A21C5A6E200CAA861 /* StoryDay4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoryDay4; sourceTree = "<group>"; };
 		DE0A145D21C5A75800CAA861 /* StoryDay5 */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoryDay5; sourceTree = "<group>"; };
+		DE0A145F21C5AB2F00CAA861 /* Day6Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day6Tests.swift; sourceTree = "<group>"; };
+		DE0A146121C5BB4C00CAA861 /* ChronalCoordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChronalCoordinates.swift; sourceTree = "<group>"; };
+		DE0A146421C851BF00CAA861 /* InputDay6 */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay6; sourceTree = "<group>"; };
+		DE0A146621C853DF00CAA861 /* StoryDay6 */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoryDay6; sourceTree = "<group>"; };
 		DE0A428B21B6D91E00AD8D18 /* AllDays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllDays.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE0A428E21B6D91E00AD8D18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE0A429021B6D91E00AD8D18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -129,6 +137,16 @@
 			path = Day5;
 			sourceTree = "<group>";
 		};
+		DE0A146321C70FCB00CAA861 /* Day6 */ = {
+			isa = PBXGroup;
+			children = (
+				DE0A146121C5BB4C00CAA861 /* ChronalCoordinates.swift */,
+				DE0A146421C851BF00CAA861 /* InputDay6 */,
+				DE0A146621C853DF00CAA861 /* StoryDay6 */,
+			);
+			path = Day6;
+			sourceTree = "<group>";
+		};
 		DE0A428221B6D91E00AD8D18 = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +176,7 @@
 				DE0A42C921BC66D600AD8D18 /* Day3 */,
 				DE0A144321C0483800CAA861 /* Day4 */,
 				DE0A145C21C5A73300CAA861 /* Day5 */,
+				DE0A146321C70FCB00CAA861 /* Day6 */,
 				DE0A42B021B7173100AD8D18 /* FileReader.swift */,
 				DE0A144A21C458C200CAA861 /* Extensions.swift */,
 				DE0A429221B6D91E00AD8D18 /* Main.storyboard */,
@@ -176,6 +195,7 @@
 				DE0A42C221B8782A00AD8D18 /* Day3Tests.swift */,
 				DE0A42CA21BC795400AD8D18 /* Day4Tests.swift */,
 				DE0A144E21C5258700CAA861 /* Day5Tests.swift */,
+				DE0A145F21C5AB2F00CAA861 /* Day6Tests.swift */,
 				DE0A42A521B6D92100AD8D18 /* Info.plist */,
 			);
 			path = AllDaysTests;
@@ -296,6 +316,7 @@
 				DE0A42B521B71CA900AD8D18 /* InputDay1 in Resources */,
 				DE0A145721C5A66E00CAA861 /* StoryDay2 in Resources */,
 				DE0A145921C5A6A200CAA861 /* StoryDay3 in Resources */,
+				DE0A146721C853DF00CAA861 /* StoryDay6 in Resources */,
 				DE0A42C021B7431900AD8D18 /* InputDay2 in Resources */,
 				DE0A144221C0482500CAA861 /* InputDay4TestOrdered in Resources */,
 				DE0A145B21C5A6E200CAA861 /* StoryDay4 in Resources */,
@@ -305,6 +326,7 @@
 				DE0A429921B6D92100AD8D18 /* LaunchScreen.storyboard in Resources */,
 				DE0A42C821BC628200AD8D18 /* InputDay3 in Resources */,
 				DE0A144D21C4590600CAA861 /* InputDay4 in Resources */,
+				DE0A146521C851BF00CAA861 /* InputDay6 in Resources */,
 				DE0A429621B6D92100AD8D18 /* Assets.xcassets in Resources */,
 				DE0A429421B6D91E00AD8D18 /* Main.storyboard in Resources */,
 			);
@@ -325,6 +347,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE0A429121B6D91E00AD8D18 /* ViewController.swift in Sources */,
+				DE0A146221C5BB4C00CAA861 /* ChronalCoordinates.swift in Sources */,
 				DE0A428F21B6D91E00AD8D18 /* AppDelegate.swift in Sources */,
 				DE0A144921C457FE00CAA861 /* Guard.swift in Sources */,
 				DE0A42B321B7175100AD8D18 /* FrequencyCalibrator.swift in Sources */,
@@ -345,6 +368,7 @@
 				DE0A42A421B6D92100AD8D18 /* Day1Tests.swift in Sources */,
 				DE0A42B821B7265200AD8D18 /* Day2Tests.swift in Sources */,
 				DE0A42C321B8782A00AD8D18 /* Day3Tests.swift in Sources */,
+				DE0A146021C5AB2F00CAA861 /* Day6Tests.swift in Sources */,
 				DE0A42CB21BC795400AD8D18 /* Day4Tests.swift in Sources */,
 				DE0A144F21C5258700CAA861 /* Day5Tests.swift in Sources */,
 			);

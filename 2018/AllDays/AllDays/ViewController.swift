@@ -26,6 +26,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         Day(number: 3),
         Day(number: 4),
         Day(number: 5),
+        Day(number: 6),
     ]
 
     override func viewDidLoad() {
@@ -53,6 +54,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 vc.generator = SleepOverwatch()
             case 4:
                 vc.generator = AlchemicalReduction()
+            case 5:
+                vc.generator = ChronalCoordinates()
             default:
                 vc.generator = FrequencyCalibrator()
             }
