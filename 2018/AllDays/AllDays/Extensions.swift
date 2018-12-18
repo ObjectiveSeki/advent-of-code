@@ -19,3 +19,29 @@ extension String {
         return self == self.uppercased()
     }
 }
+
+
+extension Array where Element == [Area] {
+    func flipped() -> [[Area]] {
+        var copy = self
+        for i in 0..<self.count {
+            for j in 0..<self.count {
+                copy[j][i] = self[i][j]
+            }
+        }
+        return copy
+    }
+}
+
+extension Array where Element == [Int] {
+    func highestValue() -> Int {
+        guard self.count != 0 else { return 0 }
+        var max = 0
+        for array in self {
+            if array.max()! > max {
+                max = array.max()!
+            }
+        }
+        return max
+    }
+}

@@ -12,14 +12,7 @@ class Day6Tests: XCTestCase {
     }
 
     func testX() {
-        let coordinates = [
-            [1, 1],
-            [1, 6],
-            [8, 3],
-            [3, 4],
-            [5, 5],
-            [8, 9],
-        ]
+        setupTestGrid()
         let expected = [
             [".", ".", ".", ".", ".", ".", ".", ".", ".", "."],
             [".", "1", ".", ".", ".", ".", ".", ".", ".", "."],
@@ -32,7 +25,6 @@ class Day6Tests: XCTestCase {
             [".", ".", ".", ".", ".", ".", ".", ".", ".", "."],
             [".", ".", ".", ".", ".", ".", ".", ".", "6", "."],
         ]
-        sut.createGridWith(coordinates: coordinates)
         let r2 = sut.grid.flipped().map {
             $0.map { area in
                 return area.description2
@@ -43,6 +35,8 @@ class Day6Tests: XCTestCase {
 
     func testAreaBeloningToCoords() {
         setupTestGrid()
+        sut.decideAreaBelongingToCoords()
+        for aoeu in sut.grid.flipped() { print(aoeu) }
 
         let r1 = sut.grid[2][2].belongToID
         XCTAssertEqual(r1, 1)
@@ -56,9 +50,29 @@ class Day6Tests: XCTestCase {
 
     func testLargestArea() {
         setupTestGrid()
+        sut.decideAreaBelongingToCoords()
+        for aoeu in sut.grid.flipped() { print(aoeu) }
+
         let result = sut.largestArea()
         XCTAssertEqual(result, 17)
     }
+
+    func testMiddleRegionSize() {
+        setupTestGrid()
+        sut.decideMiddleRegion(within: 32)
+        let description = sut.grid.flipped().map {
+            $0.map { area in
+                return area.description3
+            }
+        }
+        for aoeu in description { print(aoeu) }
+
+        let result = sut.middleRegionSize
+        XCTAssertEqual(result, 16)
+    }
+
+
+    // MARK: Helper methods
 
     func setupTestGrid() {
         let coordinates = [
@@ -70,7 +84,7 @@ class Day6Tests: XCTestCase {
             [8, 9],
         ]
         sut.createGridWith(coordinates: coordinates)
-        sut.decideAreaBelongingToCoords()
+        for aoeu in sut.grid.flipped() { print(aoeu) }
     }
 
 }

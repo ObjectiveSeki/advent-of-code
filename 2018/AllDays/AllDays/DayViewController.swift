@@ -53,6 +53,7 @@ class DayViewController: UIViewController, FileReader {
     }
 
     func scheduleTimer() {
+        currentAnswer?.text = ""
         timer = Timer.scheduledTimer(
             timeInterval: 0.5,
             target: self,

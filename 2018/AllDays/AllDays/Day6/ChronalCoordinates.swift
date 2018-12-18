@@ -2,41 +2,24 @@
 import Foundation
 
 
-extension Array where Element == [Area] {
-    func flipped() -> [[Area]] {
-        var copy = self
-        for i in 0..<self.count {
-            for j in 0..<self.count {
-                copy[j][i] = self[i][j]
-            }
-        }
-        return copy
-    }
-}
-
-extension Array where Element == [Int] {
-    func highestValue() -> Int {
-        guard self.count != 0 else { return 0 }
-        var max = 0
-        for array in self {
-            if array.max()! > max {
-                max = array.max()!
-            }
-        }
-        return max
-    }
-}
-
 struct Area: CustomStringConvertible {
     var ID: Int = 0
     var belongToID: Int = 0
+    var middleRegion = false
+
     var description: String {
         if ID != 0 { return "X" }
+        if middleRegion == true { return "#" }
         if belongToID == 0 { return "." }
         return String(belongToID)
     }
     var description2: String {
         if ID != 0 { return String(ID) }
+        return "."
+    }
+    var description3: String {
+        if ID != 0 { return "X" }
+        if middleRegion == true { return "#" }
         return "."
     }
 }
@@ -58,7 +41,8 @@ class ChronalCoordinates: FileReader, Generatable {
     }
 
     func generatePartTwo(fromFile input: String) -> String {
-        return ""
+        decideMiddleRegion(within: 10000)
+        return String(middleRegionSize)
     }
 
 
@@ -98,9 +82,6 @@ class ChronalCoordinates: FileReader, Generatable {
                 }
             }
         }
-//        for aoeu in grid.flipped() {
-//            print(aoeu)
-//        }
     }
 
     func largestArea() -> Int {
@@ -117,13 +98,30 @@ class ChronalCoordinates: FileReader, Generatable {
                 if deadIDs.contains(where: { $0 == ID }) {
                     continue
                 }
-                if let value = dict[ID] {
-                    dict[ID] = value + 1
-                } else {
-                    dict[ID] = 1
-                }
+                dict[ID] = dict[ID, default: 0] + 1
             }
         }
         return dict.values.max()!
+    }
+
+    func decideMiddleRegion(within limit: Int) {
+        for i in 0..<grid.count {
+            for j in 0..<grid.count {
+                var totalDistance = 0
+                for cs in coords {
+                    totalDistance += abs(i-cs[0]) + abs(j-cs[1])
+                }
+                if totalDistance < limit {
+                    grid[i][j].middleRegion = true
+                }
+            }
+        }
+    }
+
+    var middleRegionSize: Int {
+        return grid
+            .joined()
+            .filter { $0.middleRegion }
+            .count
     }
 }
