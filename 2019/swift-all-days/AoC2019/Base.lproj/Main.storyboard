@@ -1,29 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="W3g-a3-tlN">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="W3g-a3-tlN">
+    <device id="retina5_9" orientation="portrait" appearance="dark"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Advent of Code 2018-->
+        <!--Advent of Code 2019-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AllDays" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AoC2019" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="EIR-jj-qRt">
-                                <rect key="frame" x="0.0" y="114" width="375" height="553"/>
+                                <rect key="frame" x="0.0" y="138" width="375" height="640"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="EIR-jj-qRt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4M4-te-DVy"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EIR-jj-qRt" secondAttribute="trailing" id="DPc-aU-5Kb"/>
@@ -32,7 +30,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Advent of Code 2018" id="biv-0R-oiH"/>
+                    <navigationItem key="navigationItem" title="Advent of Code 2019" id="biv-0R-oiH"/>
                     <connections>
                         <outlet property="tableView" destination="EIR-jj-qRt" id="VjJ-Th-dAn"/>
                         <segue destination="4aL-H2-3yX" kind="show" identifier="DayDetails" id="jip-ml-Gjk"/>
@@ -45,13 +43,13 @@
         <!--Day View Controller-->
         <scene sceneID="Clt-dT-8xN">
             <objects>
-                <viewController id="4aL-H2-3yX" customClass="DayViewController" customModule="AllDays" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="4aL-H2-3yX" customClass="DayViewController" customModule="AoC2019" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7ft-YN-rgL">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fjq-23-X1Q">
-                                <rect key="frame" x="40" y="614" width="100" height="33"/>
+                                <rect key="frame" x="40" y="725" width="100" height="33"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="W7k-WB-CTl"/>
                                 </constraints>
@@ -62,25 +60,24 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Part 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LIb-gR-WF1">
-                                <rect key="frame" x="40" y="530" width="39" height="18"/>
+                                <rect key="frame" x="40" y="641" width="39" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Part 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VcW-HY-gUs">
-                                <rect key="frame" x="40" y="596" width="41.5" height="18"/>
+                                <rect key="frame" x="40" y="707" width="41.666666666666657" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Answer comes here" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gLM-7f-8ID">
-                                <rect key="frame" x="147.5" y="622" width="187.5" height="17"/>
-                                <nil key="textColor"/>
+                                <rect key="frame" x="147.66666666666663" y="733" width="187.33333333333337" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v3B-RB-RFi">
-                                <rect key="frame" x="40" y="548" width="100" height="33"/>
+                                <rect key="frame" x="40" y="659" width="100" height="33"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="okH-gD-CdL"/>
                                 </constraints>
@@ -91,15 +88,14 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Answer comes here" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jcI-rH-edy">
-                                <rect key="frame" x="147" y="556" width="188" height="17"/>
-                                <nil key="textColor"/>
+                                <rect key="frame" x="147" y="667" width="188" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="iEO-yK-AhI">
-                                <rect key="frame" x="10" y="84" width="355" height="416"/>
+                                <rect key="frame" x="10" y="108" width="355" height="503"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">--- Day 1: Chronal Calibration ---
+                                <string key="text">--- Day 1: Chronal Calibration ---
 
 "We've detected some temporal anomalies," one of Santa's Elves at the Temporal Anomaly Research and Detection Instrument Station tells you. She sounded pretty worried when she called you down here. "At 500-year intervals into the past, someone has been changing Santa's history!"
 
@@ -149,12 +145,13 @@ Here are other examples:
 +3, +3, +4, -2, -4 first reaches 10 twice.
 -6, +3, +8, +5, -6 first reaches 5 twice.
 +7, +7, -2, -7, -4 first reaches 14 twice.
-What is the first frequency your device reaches twice?</mutableString>
+What is the first frequency your device reaches twice?</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="91C-vf-KxS" firstAttribute="bottom" secondItem="Fjq-23-X1Q" secondAttribute="bottom" constant="20" id="4hw-3u-niQ"/>
                             <constraint firstItem="jcI-rH-edy" firstAttribute="centerY" secondItem="v3B-RB-RFi" secondAttribute="centerY" id="9H6-N0-EQA"/>
@@ -193,7 +190,7 @@ What is the first frequency your device reaches twice?</mutableString>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="W3g-a3-tlN" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="X23-J7-eaS">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

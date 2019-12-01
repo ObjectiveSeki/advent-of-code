@@ -34,14 +34,14 @@
 /* Begin PBXFileReference section */
 		DE0A144A21C458C200CAA861 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		DE0A145421C5A3DB00CAA861 /* StoryDay1 */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoryDay1; sourceTree = "<group>"; };
-		DE0A428B21B6D91E00AD8D18 /* AllDays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllDays.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0A428B21B6D91E00AD8D18 /* AoC2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AoC2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE0A428E21B6D91E00AD8D18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE0A429021B6D91E00AD8D18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DE0A429321B6D91E00AD8D18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE0A429521B6D92100AD8D18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE0A429821B6D92100AD8D18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE0A429A21B6D92100AD8D18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DE0A429F21B6D92100AD8D18 /* AllDaysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllDaysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0A429F21B6D92100AD8D18 /* AoC2019Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AoC2019Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE0A42A321B6D92100AD8D18 /* Day1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day1Tests.swift; sourceTree = "<group>"; };
 		DE0A42A521B6D92100AD8D18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE0A42AE21B713C100AD8D18 /* DayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayViewController.swift; sourceTree = "<group>"; };
@@ -71,8 +71,8 @@
 		DE0A428221B6D91E00AD8D18 = {
 			isa = PBXGroup;
 			children = (
-				DE0A428D21B6D91E00AD8D18 /* AllDays */,
-				DE0A42A221B6D92100AD8D18 /* AllDaysTests */,
+				DE0A428D21B6D91E00AD8D18 /* AoC2019 */,
+				DE0A42A221B6D92100AD8D18 /* AoC2019Tests */,
 				DE0A428C21B6D91E00AD8D18 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -80,13 +80,13 @@
 		DE0A428C21B6D91E00AD8D18 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DE0A428B21B6D91E00AD8D18 /* AllDays.app */,
-				DE0A429F21B6D92100AD8D18 /* AllDaysTests.xctest */,
+				DE0A428B21B6D91E00AD8D18 /* AoC2019.app */,
+				DE0A429F21B6D92100AD8D18 /* AoC2019Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DE0A428D21B6D91E00AD8D18 /* AllDays */ = {
+		DE0A428D21B6D91E00AD8D18 /* AoC2019 */ = {
 			isa = PBXGroup;
 			children = (
 				DE0A428E21B6D91E00AD8D18 /* AppDelegate.swift */,
@@ -100,16 +100,16 @@
 				DE0A429721B6D92100AD8D18 /* LaunchScreen.storyboard */,
 				DE0A429A21B6D92100AD8D18 /* Info.plist */,
 			);
-			path = AllDays;
+			path = AoC2019;
 			sourceTree = "<group>";
 		};
-		DE0A42A221B6D92100AD8D18 /* AllDaysTests */ = {
+		DE0A42A221B6D92100AD8D18 /* AoC2019Tests */ = {
 			isa = PBXGroup;
 			children = (
 				DE0A42A321B6D92100AD8D18 /* Day1Tests.swift */,
 				DE0A42A521B6D92100AD8D18 /* Info.plist */,
 			);
-			path = AllDaysTests;
+			path = AoC2019Tests;
 			sourceTree = "<group>";
 		};
 		DE0A42B621B71E9800AD8D18 /* Day1 */ = {
@@ -125,9 +125,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DE0A428A21B6D91E00AD8D18 /* AllDays */ = {
+		DE0A428A21B6D91E00AD8D18 /* AoC2019 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DE0A42A821B6D92100AD8D18 /* Build configuration list for PBXNativeTarget "AllDays" */;
+			buildConfigurationList = DE0A42A821B6D92100AD8D18 /* Build configuration list for PBXNativeTarget "AoC2019" */;
 			buildPhases = (
 				DE0A428721B6D91E00AD8D18 /* Sources */,
 				DE0A428821B6D91E00AD8D18 /* Frameworks */,
@@ -137,14 +137,14 @@
 			);
 			dependencies = (
 			);
-			name = AllDays;
+			name = AoC2019;
 			productName = AllDays;
-			productReference = DE0A428B21B6D91E00AD8D18 /* AllDays.app */;
+			productReference = DE0A428B21B6D91E00AD8D18 /* AoC2019.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DE0A429E21B6D92100AD8D18 /* AllDaysTests */ = {
+		DE0A429E21B6D92100AD8D18 /* AoC2019Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DE0A42AB21B6D92100AD8D18 /* Build configuration list for PBXNativeTarget "AllDaysTests" */;
+			buildConfigurationList = DE0A42AB21B6D92100AD8D18 /* Build configuration list for PBXNativeTarget "AoC2019Tests" */;
 			buildPhases = (
 				DE0A429B21B6D92100AD8D18 /* Sources */,
 				DE0A429C21B6D92100AD8D18 /* Frameworks */,
@@ -155,9 +155,9 @@
 			dependencies = (
 				DE0A42A121B6D92100AD8D18 /* PBXTargetDependency */,
 			);
-			name = AllDaysTests;
+			name = AoC2019Tests;
 			productName = AllDaysTests;
-			productReference = DE0A429F21B6D92100AD8D18 /* AllDaysTests.xctest */;
+			productReference = DE0A429F21B6D92100AD8D18 /* AoC2019Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -181,7 +181,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DE0A428621B6D91E00AD8D18 /* Build configuration list for PBXProject "AllDays" */;
+			buildConfigurationList = DE0A428621B6D91E00AD8D18 /* Build configuration list for PBXProject "AoC2019" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -194,8 +194,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DE0A428A21B6D91E00AD8D18 /* AllDays */,
-				DE0A429E21B6D92100AD8D18 /* AllDaysTests */,
+				DE0A428A21B6D91E00AD8D18 /* AoC2019 */,
+				DE0A429E21B6D92100AD8D18 /* AoC2019Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -249,7 +249,7 @@
 /* Begin PBXTargetDependency section */
 		DE0A42A121B6D92100AD8D18 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DE0A428A21B6D91E00AD8D18 /* AllDays */;
+			target = DE0A428A21B6D91E00AD8D18 /* AoC2019 */;
 			targetProxy = DE0A42A021B6D92100AD8D18 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -396,12 +396,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3WR88837J5;
-				INFOPLIST_FILE = AllDays/Info.plist;
+				INFOPLIST_FILE = AoC2019/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.skf.AllDays;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skf.AoC2019;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -414,12 +414,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3WR88837J5;
-				INFOPLIST_FILE = AllDays/Info.plist;
+				INFOPLIST_FILE = AoC2019/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.skf.AllDays;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skf.AoC2019;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -433,17 +433,17 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3WR88837J5;
-				INFOPLIST_FILE = AllDaysTests/Info.plist;
+				INFOPLIST_FILE = AoC2019Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.skf.AllDaysTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skf.AoC2019Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AllDays.app/AllDays";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AoC2019.app/AoC2019";
 			};
 			name = Debug;
 		};
@@ -454,24 +454,24 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3WR88837J5;
-				INFOPLIST_FILE = AllDaysTests/Info.plist;
+				INFOPLIST_FILE = AoC2019Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.skf.AllDaysTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skf.AoC2019Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AllDays.app/AllDays";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AoC2019.app/AoC2019";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DE0A428621B6D91E00AD8D18 /* Build configuration list for PBXProject "AllDays" */ = {
+		DE0A428621B6D91E00AD8D18 /* Build configuration list for PBXProject "AoC2019" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DE0A42A621B6D92100AD8D18 /* Debug */,
@@ -480,7 +480,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DE0A42A821B6D92100AD8D18 /* Build configuration list for PBXNativeTarget "AllDays" */ = {
+		DE0A42A821B6D92100AD8D18 /* Build configuration list for PBXNativeTarget "AoC2019" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DE0A42A921B6D92100AD8D18 /* Debug */,
@@ -489,7 +489,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DE0A42AB21B6D92100AD8D18 /* Build configuration list for PBXNativeTarget "AllDaysTests" */ = {
+		DE0A42AB21B6D92100AD8D18 /* Build configuration list for PBXNativeTarget "AoC2019Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DE0A42AC21B6D92100AD8D18 /* Debug */,
