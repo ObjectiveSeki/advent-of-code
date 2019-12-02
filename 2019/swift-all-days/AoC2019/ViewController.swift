@@ -22,6 +22,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @IBOutlet weak var tableView: UITableView!
     var days = [
         Day(number: 1),
+        Day(number: 2),
     ]
 
     override func viewDidLoad() {
@@ -41,6 +42,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             switch sender as! Int {
             case 0:
                 vc.generator = FuelCounter()
+            case 1:
+                vc.generator = IntcodeProgram()
             default:
                 vc.generator = FuelCounter()
             }

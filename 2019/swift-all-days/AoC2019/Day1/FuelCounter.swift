@@ -45,13 +45,13 @@ struct FuelCounter: FileReader, Generatable {
     // MARK: Generatable
 
     func generatePartOne(fromFile input: String) -> String {
-        let array = stringArray(fromFile: input).map { Int($0)! }
+        let array = stringArrayNewLine(fromFile: input).map { Int($0)! }
         let modules = array.map { FuelModule(mass: $0) }
         return String(countFuelNeeded(for: modules))
     }
 
     func generatePartTwo(fromFile input: String) -> String {
-        let array = stringArray(fromFile: input).map { Int($0)! }
+        let array = stringArrayNewLine(fromFile: input).map { Int($0)! }
         let modules = array.map { FuelModule(mass: $0) }
         return String(countFuelReallyNeeded(for: modules))
     }

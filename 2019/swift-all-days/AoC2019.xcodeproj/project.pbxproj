@@ -19,6 +19,10 @@
 		DE0A42B121B7173100AD8D18 /* FileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A42B021B7173100AD8D18 /* FileReader.swift */; };
 		DE0A42B521B71CA900AD8D18 /* InputDay1 in Resources */ = {isa = PBXBuildFile; fileRef = DE0A42B421B71CA800AD8D18 /* InputDay1 */; };
 		DEB73F88239403FC00D4121E /* FuelCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB73F87239403FC00D4121E /* FuelCounter.swift */; };
+		DEEC74262394F4510084C05B /* Day2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEC74252394F4510084C05B /* Day2Tests.swift */; };
+		DEEC742923953A630084C05B /* IntcodeProgram.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEC742823953A630084C05B /* IntcodeProgram.swift */; };
+		DEEC742C2395471A0084C05B /* InputDay2 in Resources */ = {isa = PBXBuildFile; fileRef = DEEC742B2395471A0084C05B /* InputDay2 */; };
+		DEEC742E2395481C0084C05B /* StoryDay2 in Resources */ = {isa = PBXBuildFile; fileRef = DEEC742D2395481C0084C05B /* StoryDay2 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,10 @@
 		DE0A42B021B7173100AD8D18 /* FileReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReader.swift; sourceTree = "<group>"; };
 		DE0A42B421B71CA800AD8D18 /* InputDay1 */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay1; sourceTree = "<group>"; };
 		DEB73F87239403FC00D4121E /* FuelCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelCounter.swift; sourceTree = "<group>"; };
+		DEEC74252394F4510084C05B /* Day2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2Tests.swift; sourceTree = "<group>"; };
+		DEEC742823953A630084C05B /* IntcodeProgram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntcodeProgram.swift; sourceTree = "<group>"; };
+		DEEC742B2395471A0084C05B /* InputDay2 */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay2; sourceTree = "<group>"; };
+		DEEC742D2395481C0084C05B /* StoryDay2 */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoryDay2; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,7 @@
 				DE0A42AE21B713C100AD8D18 /* DayViewController.swift */,
 				DE0A42B621B71E9800AD8D18 /* Day1 */,
 				DE0A42B021B7173100AD8D18 /* FileReader.swift */,
+				DEEC742A23953A6D0084C05B /* Day2 */,
 				DE0A144A21C458C200CAA861 /* Extensions.swift */,
 				DE0A429221B6D91E00AD8D18 /* Main.storyboard */,
 				DE0A429521B6D92100AD8D18 /* Assets.xcassets */,
@@ -107,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				DE0A42A321B6D92100AD8D18 /* Day1Tests.swift */,
+				DEEC74252394F4510084C05B /* Day2Tests.swift */,
 				DE0A42A521B6D92100AD8D18 /* Info.plist */,
 			);
 			path = AoC2019Tests;
@@ -120,6 +130,16 @@
 				DE0A145421C5A3DB00CAA861 /* StoryDay1 */,
 			);
 			path = Day1;
+			sourceTree = "<group>";
+		};
+		DEEC742A23953A6D0084C05B /* Day2 */ = {
+			isa = PBXGroup;
+			children = (
+				DEEC742823953A630084C05B /* IntcodeProgram.swift */,
+				DEEC742B2395471A0084C05B /* InputDay2 */,
+				DEEC742D2395481C0084C05B /* StoryDay2 */,
+			);
+			path = Day2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +227,9 @@
 			files = (
 				DE0A42B521B71CA900AD8D18 /* InputDay1 in Resources */,
 				DE0A145521C5A3DB00CAA861 /* StoryDay1 in Resources */,
+				DEEC742E2395481C0084C05B /* StoryDay2 in Resources */,
 				DE0A429921B6D92100AD8D18 /* LaunchScreen.storyboard in Resources */,
+				DEEC742C2395471A0084C05B /* InputDay2 in Resources */,
 				DE0A429621B6D92100AD8D18 /* Assets.xcassets in Resources */,
 				DE0A429421B6D91E00AD8D18 /* Main.storyboard in Resources */,
 			);
@@ -229,6 +251,7 @@
 			files = (
 				DE0A429121B6D91E00AD8D18 /* ViewController.swift in Sources */,
 				DE0A428F21B6D91E00AD8D18 /* AppDelegate.swift in Sources */,
+				DEEC742923953A630084C05B /* IntcodeProgram.swift in Sources */,
 				DE0A144B21C458C200CAA861 /* Extensions.swift in Sources */,
 				DE0A42B121B7173100AD8D18 /* FileReader.swift in Sources */,
 				DEB73F88239403FC00D4121E /* FuelCounter.swift in Sources */,
@@ -241,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE0A42A421B6D92100AD8D18 /* Day1Tests.swift in Sources */,
+				DEEC74262394F4510084C05B /* Day2Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

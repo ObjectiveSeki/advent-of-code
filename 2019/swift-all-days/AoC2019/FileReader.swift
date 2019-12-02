@@ -6,7 +6,12 @@ protocol FileReader { }
 
 extension FileReader {
 
-    func stringArray(fromFile name: String) -> [String] {
+    func stringArrayComma(fromFile name: String) -> [String] {
+        guard let s = string(fromFile: name) else { return [] }
+        return s.components(separatedBy: ",")
+    }
+
+    func stringArrayNewLine(fromFile name: String) -> [String] {
         guard let s = string(fromFile: name) else { return [] }
         return s.components(separatedBy: .newlines)
     }
@@ -16,8 +21,10 @@ extension FileReader {
         let s = try! String(contentsOf: url)
         return s.trimmingCharacters(in: .whitespacesAndNewlines)
     }
+
     private func bundleURL(from name: String) -> URL {
         let file = Bundle.main.path(forResource: name, ofType: nil)!
         return URL(fileURLWithPath: file)
     }
+
 }
