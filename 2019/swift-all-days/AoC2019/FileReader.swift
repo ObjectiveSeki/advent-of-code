@@ -16,6 +16,18 @@ extension FileReader {
         return s.components(separatedBy: .newlines)
     }
 
+    func stringMatrixNewLineAndComma(fromFile name: String) -> [[String]] {
+        guard let s = string(fromFile: name) else { return [] }
+        let array = s.components(separatedBy: .newlines)
+        var matrix = [[String]]()
+        for h in array {
+            matrix.append(h.components(separatedBy: ","))
+        }
+        return matrix
+    }
+
+
+
     func string(fromFile name: String) -> String? {
         let url = bundleURL(from: name)
         let s = try! String(contentsOf: url)

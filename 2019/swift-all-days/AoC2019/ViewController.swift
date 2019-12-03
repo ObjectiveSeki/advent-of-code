@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  AllDays
-//
-//  Created by Niclas Eriksson on 2018-12-04.
-//  Copyright © 2018 DarkFit. All rights reserved.
-//
 
 import UIKit
 
@@ -23,6 +16,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     var days = [
         Day(number: 1),
         Day(number: 2),
+        Day(number: 3),
     ]
 
     override func viewDidLoad() {
@@ -44,6 +38,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 vc.generator = FuelCounter()
             case 1:
                 vc.generator = IntcodeProgram()
+            case 2:
+                vc.generator = JumbleOfWires()
             default:
                 vc.generator = FuelCounter()
             }
