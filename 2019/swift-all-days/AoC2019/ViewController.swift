@@ -17,6 +17,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         Day(number: 1),
         Day(number: 2),
         Day(number: 3),
+        Day(number: 4),
     ]
 
     override func viewDidLoad() {
@@ -40,6 +41,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 vc.generator = IntcodeProgram()
             case 2:
                 vc.generator = JumbleOfWires()
+            case 3:
+            vc.generator = OKPassword()
             default:
                 vc.generator = FuelCounter()
             }
