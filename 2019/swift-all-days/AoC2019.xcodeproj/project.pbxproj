@@ -23,6 +23,10 @@
 		DED0227323977C9300AF1C0E /* PasswordCracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0227223977C9300AF1C0E /* PasswordCracker.swift */; };
 		DED0227623977E1C00AF1C0E /* InputDay4 in Resources */ = {isa = PBXBuildFile; fileRef = DED0227523977E1C00AF1C0E /* InputDay4 */; };
 		DED0227823977E2B00AF1C0E /* StoryDay4 in Resources */ = {isa = PBXBuildFile; fileRef = DED0227723977E2B00AF1C0E /* StoryDay4 */; };
+		DED02280239BA85B00AF1C0E /* Day6Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0227F239BA85B00AF1C0E /* Day6Tests.swift */; };
+		DED02283239BFD9400AF1C0E /* OrbiterCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED02282239BFD9400AF1C0E /* OrbiterCalculator.swift */; };
+		DED02285239BFE7100AF1C0E /* InputDay6 in Resources */ = {isa = PBXBuildFile; fileRef = DED02284239BFE7100AF1C0E /* InputDay6 */; };
+		DED02287239BFE7E00AF1C0E /* StoryDay6 in Resources */ = {isa = PBXBuildFile; fileRef = DED02286239BFE7E00AF1C0E /* StoryDay6 */; };
 		DEEC74262394F4510084C05B /* Day2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEC74252394F4510084C05B /* Day2Tests.swift */; };
 		DEEC742923953A630084C05B /* IntcodeProgram.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEC742823953A630084C05B /* IntcodeProgram.swift */; };
 		DEEC742C2395471A0084C05B /* InputDay2 in Resources */ = {isa = PBXBuildFile; fileRef = DEEC742B2395471A0084C05B /* InputDay2 */; };
@@ -64,6 +68,10 @@
 		DED0227223977C9300AF1C0E /* PasswordCracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCracker.swift; sourceTree = "<group>"; };
 		DED0227523977E1C00AF1C0E /* InputDay4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay4; sourceTree = "<group>"; };
 		DED0227723977E2B00AF1C0E /* StoryDay4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoryDay4; sourceTree = "<group>"; };
+		DED0227F239BA85B00AF1C0E /* Day6Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day6Tests.swift; sourceTree = "<group>"; };
+		DED02282239BFD9400AF1C0E /* OrbiterCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrbiterCalculator.swift; sourceTree = "<group>"; };
+		DED02284239BFE7100AF1C0E /* InputDay6 */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay6; sourceTree = "<group>"; };
+		DED02286239BFE7E00AF1C0E /* StoryDay6 */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoryDay6; sourceTree = "<group>"; };
 		DEEC74252394F4510084C05B /* Day2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2Tests.swift; sourceTree = "<group>"; };
 		DEEC742823953A630084C05B /* IntcodeProgram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntcodeProgram.swift; sourceTree = "<group>"; };
 		DEEC742B2395471A0084C05B /* InputDay2 */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay2; sourceTree = "<group>"; };
@@ -121,6 +129,7 @@
 				DEEC742A23953A6D0084C05B /* Day2 */,
 				DEEC742F23963BB00084C05B /* Day3 */,
 				DE0A42B021B7173100AD8D18 /* FileReader.swift */,
+				DED02281239BFD7D00AF1C0E /* Day6 */,
 				DE0A144A21C458C200CAA861 /* Extensions.swift */,
 				DE0A429221B6D91E00AD8D18 /* Main.storyboard */,
 				DE0A429521B6D92100AD8D18 /* Assets.xcassets */,
@@ -137,6 +146,7 @@
 				DEEC74252394F4510084C05B /* Day2Tests.swift */,
 				DEEC743023963E030084C05B /* Day3.swift */,
 				DED022702397774100AF1C0E /* Day4.swift */,
+				DED0227F239BA85B00AF1C0E /* Day6Tests.swift */,
 				DE0A42A521B6D92100AD8D18 /* Info.plist */,
 			);
 			path = AoC2019Tests;
@@ -160,6 +170,16 @@
 				DED0227723977E2B00AF1C0E /* StoryDay4 */,
 			);
 			path = Day4;
+			sourceTree = "<group>";
+		};
+		DED02281239BFD7D00AF1C0E /* Day6 */ = {
+			isa = PBXGroup;
+			children = (
+				DED02282239BFD9400AF1C0E /* OrbiterCalculator.swift */,
+				DED02284239BFE7100AF1C0E /* InputDay6 */,
+				DED02286239BFE7E00AF1C0E /* StoryDay6 */,
+			);
+			path = Day6;
 			sourceTree = "<group>";
 		};
 		DEEC742A23953A6D0084C05B /* Day2 */ = {
@@ -274,8 +294,10 @@
 				DEEC742C2395471A0084C05B /* InputDay2 in Resources */,
 				DE0A429621B6D92100AD8D18 /* Assets.xcassets in Resources */,
 				DED0227623977E1C00AF1C0E /* InputDay4 in Resources */,
+				DED02285239BFE7100AF1C0E /* InputDay6 in Resources */,
 				DE0A429421B6D91E00AD8D18 /* Main.storyboard in Resources */,
 				DEEC743723968A930084C05B /* StoryDay3 in Resources */,
+				DED02287239BFE7E00AF1C0E /* StoryDay6 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE0A429121B6D91E00AD8D18 /* ViewController.swift in Sources */,
+				DED02283239BFD9400AF1C0E /* OrbiterCalculator.swift in Sources */,
 				DE0A428F21B6D91E00AD8D18 /* AppDelegate.swift in Sources */,
 				DEEC742923953A630084C05B /* IntcodeProgram.swift in Sources */,
 				DE0A144B21C458C200CAA861 /* Extensions.swift in Sources */,
@@ -311,6 +334,7 @@
 			files = (
 				DE0A42A421B6D92100AD8D18 /* Day1Tests.swift in Sources */,
 				DEEC743123963E030084C05B /* Day3.swift in Sources */,
+				DED02280239BA85B00AF1C0E /* Day6Tests.swift in Sources */,
 				DEEC74262394F4510084C05B /* Day2Tests.swift in Sources */,
 				DED022712397774100AF1C0E /* Day4.swift in Sources */,
 			);
