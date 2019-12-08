@@ -78,4 +78,5 @@ struct Day6: FileReader, Generatable {
         let o = OrbiterCalculator(orbits: array)
         return String(o.orbitCountMeToSanta())
     }
+
 }
