@@ -18,6 +18,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         Day(number: 2),
         Day(number: 3),
         Day(number: 4),
+        Day(number: 5),
         Day(number: 6),
         Day(number: 8)
     ]
@@ -40,14 +41,16 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             case 0:
                 vc.generator = FuelCounter()
             case 1:
-                vc.generator = IntcodeProgram()
+                vc.generator = Day2()
             case 2:
                 vc.generator = JumbleOfWires()
             case 3:
                 vc.generator = OKPassword()
             case 4:
-                vc.generator = Day6()
+                vc.generator = Day5()
             case 5:
+                vc.generator = Day6()
+            case 6:
                 vc.generator = Day8()
             default:
                 vc.generator = FuelCounter()

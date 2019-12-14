@@ -5,17 +5,17 @@ import XCTest
 
 class Day2Tests: XCTestCase {
 
-    var sut: IntcodeProgram!
+    var sut: IntcodeComputer!
 
     override func setUp() {
-        sut = IntcodeProgram()
+        sut = IntcodeComputer()
     }
 
     override func tearDown() { }
 
     func test1() {
         let input = [1, 0, 0, 0, 99]
-        let result = sut.execute(array: input)
+        let result = sut.execute(program: input)
 
         let expected = [2, 0, 0, 0, 99]
         XCTAssertEqual(result, expected)
@@ -23,7 +23,7 @@ class Day2Tests: XCTestCase {
 
     func test2() {
         let input = [2, 3, 0, 3, 99]
-        let result = sut.execute(array: input)
+        let result = sut.execute(program: input)
 
         let expected = [2, 3, 0, 6, 99]
         XCTAssertEqual(result, expected)
@@ -31,7 +31,7 @@ class Day2Tests: XCTestCase {
 
     func test3() {
         let input = [2, 4, 4, 5, 99, 0]
-        let result = sut.execute(array: input)
+        let result = sut.execute(program: input)
 
         let expected = [2, 4, 4, 5, 99, 9801]
         XCTAssertEqual(result, expected)
@@ -39,7 +39,7 @@ class Day2Tests: XCTestCase {
 
     func test4() {
         let input = [1, 1, 1, 4, 99, 5, 6, 0, 99]
-        let result = sut.execute(array: input)
+        let result = sut.execute(program: input)
 
         let expected = [30, 1, 1, 4, 2, 5, 6, 0, 99]
         XCTAssertEqual(result, expected)
