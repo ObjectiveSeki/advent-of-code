@@ -11,7 +11,7 @@ class Day5: XCTestCase {
     func test1() {
         var sut = IntcodeComputer()
         let program = [3, 0, 4, 0, 99]
-        sut.input = 42
+        sut.inputs.append(42)
         let _ = sut.execute(program: program)
         XCTAssertEqual(sut.outputs, [42])
     }
@@ -67,7 +67,7 @@ class Day5: XCTestCase {
     func test7() {
         var sut = IntcodeComputer()
         let program = [3,9,8,9,10,9,4,9,99,-1,8]
-        sut.input = 8
+        sut.inputs.append(8)
         _ = sut.execute(program: program)
         XCTAssertEqual(sut.outputs, [1])
     }
@@ -75,7 +75,7 @@ class Day5: XCTestCase {
     func test8() {
         var sut = IntcodeComputer()
         let program = [3,9,8,9,10,9,4,9,99,-1,8]
-        sut.input = 8234
+        sut.inputs.append(8234)
         _ = sut.execute(program: program)
         XCTAssertEqual(sut.outputs, [0])
     }
@@ -83,7 +83,7 @@ class Day5: XCTestCase {
     func test9() {
         var sut = IntcodeComputer()
         let program = [3,9,7,9,10,9,4,9,99,-1,8]
-        sut.input = 7
+        sut.inputs.append(7)
         _ = sut.execute(program: program)
         XCTAssertEqual(sut.outputs, [1])
     }
@@ -91,7 +91,7 @@ class Day5: XCTestCase {
     func test10() {
         var sut = IntcodeComputer()
         let program = [3,9,7,9,10,9,4,9,99,-1,8]
-        sut.input = 8234
+        sut.inputs.append(8234)
         _ = sut.execute(program: program)
         XCTAssertEqual(sut.outputs, [0])
     }
@@ -99,7 +99,7 @@ class Day5: XCTestCase {
     func test11() {
         var sut = IntcodeComputer()
         let program = [3,3,1108,-1,8,3,4,3,99]
-        sut.input = 8
+        sut.inputs.append(8)
         _ = sut.execute(program: program)
         XCTAssertEqual(sut.outputs, [1])
     }
@@ -107,7 +107,7 @@ class Day5: XCTestCase {
     func test12() {
         var sut = IntcodeComputer()
         let program = [3,3,1108,-1,8,3,4,3,99]
-        sut.input = 8234
+        sut.inputs.append(8234)
         _ = sut.execute(program: program)
         XCTAssertEqual(sut.outputs, [0])
     }
@@ -115,7 +115,7 @@ class Day5: XCTestCase {
     func test13() {
         var sut = IntcodeComputer()
         let program = [3,3,1107,-1,8,3,4,3,99]
-        sut.input = 7
+        sut.inputs.append(7)
         _ = sut.execute(program: program)
         XCTAssertEqual(sut.outputs, [1])
     }
@@ -123,7 +123,7 @@ class Day5: XCTestCase {
     func test14() {
         var sut = IntcodeComputer()
         let program = [3,3,1107,-1,8,3,4,3,99]
-        sut.input = 8234
+        sut.inputs.append(8234)
         _ = sut.execute(program: program)
         XCTAssertEqual(sut.outputs, [0])
     }
@@ -131,7 +131,7 @@ class Day5: XCTestCase {
     func test15() {
         var sut = IntcodeComputer()
         let program = [3,12,6,12,15,1,13,14,13,4,13,99,-1,0,1,9]
-        sut.input = 0
+        sut.inputs.append(0)
         _ = sut.execute(program: program)
         XCTAssertEqual(sut.outputs, [0])
     }
@@ -139,7 +139,7 @@ class Day5: XCTestCase {
     func test16() {
         var sut = IntcodeComputer()
         let program = [3,12,6,12,15,1,13,14,13,4,13,99,-1,0,1,9]
-        sut.input = 8234
+        sut.inputs.append(8234)
         _ = sut.execute(program: program)
         XCTAssertEqual(sut.outputs, [1])
     }
@@ -147,7 +147,7 @@ class Day5: XCTestCase {
     func test17() {
         var sut = IntcodeComputer()
         let program = [3,3,1105,-1,9,1101,0,0,12,4,12,99,1]
-        sut.input = 0
+        sut.inputs.append(0)
         _ = sut.execute(program: program)
         XCTAssertEqual(sut.outputs, [0])
     }
@@ -155,7 +155,7 @@ class Day5: XCTestCase {
     func test18() {
         var sut = IntcodeComputer()
         let program = [3,3,1105,-1,9,1101,0,0,12,4,12,99,1]
-        sut.input = 8234
+        sut.inputs.append(8234)
         _ = sut.execute(program: program)
         XCTAssertEqual(sut.outputs, [1])
     }
@@ -165,7 +165,7 @@ class Day5: XCTestCase {
         let program = [3,21,1008,21,8,20,1005,20,22,107,8,21,20,1006,20,31,
         1106,0,36,98,0,0,1002,21,125,20,4,20,1105,1,46,104,
         999,1105,1,46,1101,1000,1,20,4,20,1105,1,46,98,99]
-        sut.input = 7
+        sut.inputs.append(7)
         _ = sut.execute(program: program)
         XCTAssertEqual(sut.outputs, [999])
     }
@@ -175,7 +175,7 @@ class Day5: XCTestCase {
         let program = [3,21,1008,21,8,20,1005,20,22,107,8,21,20,1006,20,31,
         1106,0,36,98,0,0,1002,21,125,20,4,20,1105,1,46,104,
         999,1105,1,46,1101,1000,1,20,4,20,1105,1,46,98,99]
-        sut.input = 8
+        sut.inputs.append(8)
         _ = sut.execute(program: program)
         XCTAssertEqual(sut.outputs, [1000])
     }
@@ -185,7 +185,7 @@ class Day5: XCTestCase {
         let program = [3,21,1008,21,8,20,1005,20,22,107,8,21,20,1006,20,31,
         1106,0,36,98,0,0,1002,21,125,20,4,20,1105,1,46,104,
         999,1105,1,46,1101,1000,1,20,4,20,1105,1,46,98,99]
-        sut.input = 9
+        sut.inputs.append(9)
         _ = sut.execute(program: program)
         XCTAssertEqual(sut.outputs, [1001])
     }

@@ -63,25 +63,45 @@ struct Opcode {
 
 struct IntcodeComputer {
 
-    var input = Int.min
+    var inputIndex = 0
+    var lastOpcodeType = OpcodeType.terminate
+//    var lastIteration = 0
+    var i = 0
+    var inputs = [Int]()
     var outputs = [Int]()
 
+    let program: [Int]?
+
+    init(program: [Int]? = nil) {
+        self.program = program
+    }
 
     // MARK: Logic
 
+    mutating func execute2() -> [Int] {
+        guard let program = program else { return [] }
+        return execute(program: program)
+    }
+
     mutating func execute(program: [Int]) -> [Int] {
         var progCopy = program
-        var i = 0
 
+//        i = 0
         while i < progCopy.count {
-            let opcode = Opcode(number: progCopy[i + 0])
+            let opcode = Opcode(number: progCopy[i])
+            lastOpcodeType = opcode.type
+//            self.lastIteration = i
+            print("opcode: \(opcode.type.rawValue)")
             if opcode.type == .terminate {
+                i = 0
                 break
             }
 
             if opcode.type == .store {
                 let storeIndex = progCopy[i+1]
-                progCopy[storeIndex] = input
+                print("store mem[\(storeIndex)] = \(inputs[inputIndex])")
+                progCopy[storeIndex] = inputs[inputIndex]
+                inputIndex += 1
                 i += 2
             } else if opcode.type == .output {
                 let p = Parameter(
@@ -89,11 +109,14 @@ struct IntcodeComputer {
                     mode: opcode.paramModes[0]
                 )
                 let v1 = valuesFrom(parameter: p, program: progCopy)
+                print("output: \(v1)")
                 outputs.append(v1)
                 i += 2
+                break
             }
 
-            else if opcode.type == .jumpIfTrue || opcode.type == .jumpIfFalse {
+            else if opcode.type == .jumpIfTrue ||
+                opcode.type == .jumpIfFalse {
                 var params = [Parameter]()
                 for (index, mode) in opcode.paramModes.enumerated() {
                     let p = Parameter(
@@ -102,8 +125,10 @@ struct IntcodeComputer {
                     )
                     params.append(p)
                 }
-                let v1 = valuesFrom(parameter: params[0], program: progCopy)
-                let v2 = valuesFrom(parameter: params[1], program: progCopy)
+                let v1 = params[0].value
+                let v2 = params[1].value
+//                let v1 = valuesFrom(parameter: params[0], program: progCopy)
+//                let v2 = valuesFrom(parameter: params[1], program: progCopy)
                 jump(opcode, v1, v2, &i)
             }
 
@@ -122,6 +147,7 @@ struct IntcodeComputer {
                 let v1 = valuesFrom(parameter: params[0], program: progCopy)
                 let v2 = valuesFrom(parameter: params[1], program: progCopy)
                 let r = result(from: opcode, v1, v2)
+//                progCopy[params[2].value] = r
                 write(
                     result: r,
                     param: params[2],
