@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DEE0F6FA2576D473005F1C91 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0F6F92576D473005F1C91 /* Tests_iOS.swift */; };
+		DEE0F6FA2576D473005F1C91 /* Day1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0F6F92576D473005F1C91 /* Day1Tests.swift */; };
 		DEE0F7052576D473005F1C91 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0F7042576D473005F1C91 /* Tests_macOS.swift */; };
 		DEE0F7072576D473005F1C91 /* AoC2020App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0F6DE2576D470005F1C91 /* AoC2020App.swift */; };
 		DEE0F7082576D473005F1C91 /* AoC2020App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0F6DE2576D470005F1C91 /* AoC2020App.swift */; };
@@ -15,6 +15,18 @@
 		DEE0F70A2576D473005F1C91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0F6DF2576D470005F1C91 /* ContentView.swift */; };
 		DEE0F70B2576D473005F1C91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE0F6E02576D472005F1C91 /* Assets.xcassets */; };
 		DEE0F70C2576D473005F1C91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE0F6E02576D472005F1C91 /* Assets.xcassets */; };
+		DEE0F7292577EB1D005F1C91 /* ReportRepair.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0F7282577EB1D005F1C91 /* ReportRepair.swift */; };
+		DEE0F72A2577EB1D005F1C91 /* ReportRepair.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0F7282577EB1D005F1C91 /* ReportRepair.swift */; };
+		DEE0F7522577FE9E005F1C91 /* StoryDay1 in Resources */ = {isa = PBXBuildFile; fileRef = DEE0F7502577FE9E005F1C91 /* StoryDay1 */; };
+		DEE0F7532577FE9E005F1C91 /* StoryDay1 in Resources */ = {isa = PBXBuildFile; fileRef = DEE0F7502577FE9E005F1C91 /* StoryDay1 */; };
+		DEE0F7542577FE9E005F1C91 /* InputDay1 in Resources */ = {isa = PBXBuildFile; fileRef = DEE0F7512577FE9E005F1C91 /* InputDay1 */; };
+		DEE0F7552577FE9E005F1C91 /* InputDay1 in Resources */ = {isa = PBXBuildFile; fileRef = DEE0F7512577FE9E005F1C91 /* InputDay1 */; };
+		DEE0F7632577FFC5005F1C91 /* FileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0F7622577FFC5005F1C91 /* FileReader.swift */; };
+		DEE0F7642577FFC5005F1C91 /* FileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0F7622577FFC5005F1C91 /* FileReader.swift */; };
+		DEE0F76D2578007A005F1C91 /* FileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0F7622577FFC5005F1C91 /* FileReader.swift */; };
+		DEE0F7722578007A005F1C91 /* FileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0F7622577FFC5005F1C91 /* FileReader.swift */; };
+		DEE0F777257801FA005F1C91 /* ReportRepair.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0F7282577EB1D005F1C91 /* ReportRepair.swift */; };
+		DEE0F77C257801FB005F1C91 /* ReportRepair.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0F7282577EB1D005F1C91 /* ReportRepair.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,11 +56,15 @@
 		DEE0F6EF2576D473005F1C91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEE0F6F02576D473005F1C91 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		DEE0F6F52576D473005F1C91 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEE0F6F92576D473005F1C91 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		DEE0F6F92576D473005F1C91 /* Day1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day1Tests.swift; sourceTree = "<group>"; };
 		DEE0F6FB2576D473005F1C91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEE0F7002576D473005F1C91 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEE0F7042576D473005F1C91 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		DEE0F7062576D473005F1C91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEE0F7282577EB1D005F1C91 /* ReportRepair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportRepair.swift; sourceTree = "<group>"; };
+		DEE0F7502577FE9E005F1C91 /* StoryDay1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = StoryDay1; sourceTree = "<group>"; };
+		DEE0F7512577FE9E005F1C91 /* InputDay1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = InputDay1; sourceTree = "<group>"; };
+		DEE0F7622577FFC5005F1C91 /* FileReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileReader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +115,9 @@
 			isa = PBXGroup;
 			children = (
 				DEE0F6DE2576D470005F1C91 /* AoC2020App.swift */,
+				DEE0F7622577FFC5005F1C91 /* FileReader.swift */,
 				DEE0F6DF2576D470005F1C91 /* ContentView.swift */,
+				DEE0F72F2577EB31005F1C91 /* Day1 */,
 				DEE0F6E02576D472005F1C91 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -136,7 +154,7 @@
 		DEE0F6F82576D473005F1C91 /* Tests iOS */ = {
 			isa = PBXGroup;
 			children = (
-				DEE0F6F92576D473005F1C91 /* Tests_iOS.swift */,
+				DEE0F6F92576D473005F1C91 /* Day1Tests.swift */,
 				DEE0F6FB2576D473005F1C91 /* Info.plist */,
 			);
 			path = "Tests iOS";
@@ -149,6 +167,16 @@
 				DEE0F7062576D473005F1C91 /* Info.plist */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		DEE0F72F2577EB31005F1C91 /* Day1 */ = {
+			isa = PBXGroup;
+			children = (
+				DEE0F7282577EB1D005F1C91 /* ReportRepair.swift */,
+				DEE0F7512577FE9E005F1C91 /* InputDay1 */,
+				DEE0F7502577FE9E005F1C91 /* StoryDay1 */,
+			);
+			path = Day1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,7 +303,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEE0F7542577FE9E005F1C91 /* InputDay1 in Resources */,
 				DEE0F70B2576D473005F1C91 /* Assets.xcassets in Resources */,
+				DEE0F7522577FE9E005F1C91 /* StoryDay1 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +313,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEE0F7552577FE9E005F1C91 /* InputDay1 in Resources */,
 				DEE0F70C2576D473005F1C91 /* Assets.xcassets in Resources */,
+				DEE0F7532577FE9E005F1C91 /* StoryDay1 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +340,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEE0F7292577EB1D005F1C91 /* ReportRepair.swift in Sources */,
 				DEE0F7092576D473005F1C91 /* ContentView.swift in Sources */,
+				DEE0F7632577FFC5005F1C91 /* FileReader.swift in Sources */,
 				DEE0F7072576D473005F1C91 /* AoC2020App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,7 +351,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEE0F72A2577EB1D005F1C91 /* ReportRepair.swift in Sources */,
 				DEE0F70A2576D473005F1C91 /* ContentView.swift in Sources */,
+				DEE0F7642577FFC5005F1C91 /* FileReader.swift in Sources */,
 				DEE0F7082576D473005F1C91 /* AoC2020App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,7 +362,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEE0F6FA2576D473005F1C91 /* Tests_iOS.swift in Sources */,
+				DEE0F777257801FA005F1C91 /* ReportRepair.swift in Sources */,
+				DEE0F76D2578007A005F1C91 /* FileReader.swift in Sources */,
+				DEE0F6FA2576D473005F1C91 /* Day1Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +372,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEE0F77C257801FB005F1C91 /* ReportRepair.swift in Sources */,
+				DEE0F7722578007A005F1C91 /* FileReader.swift in Sources */,
 				DEE0F7052576D473005F1C91 /* Tests_macOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
