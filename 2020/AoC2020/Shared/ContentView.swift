@@ -8,11 +8,11 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Button("Generate Part 1") {
-                self.part1Value = PasswordPhilosophy().generatePartOne(fromFile: "InputDay2")
+                self.part1Value = TobogganTrajectory().generatePartOne(fromFile: "InputDay3")
                 print(self.part1Value)
             }.padding()
             Button("Generate Part 2") {
-                self.part2Value = PasswordPhilosophy().generatePartTwo(fromFile: "InputDay2")
+                self.part2Value = TobogganTrajectory().generatePartTwo(fromFile: "InputDay3")
                 print(self.part2Value)
             }.padding()
             Text("Part 1: \(part1Value)")
