@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE3D9A81257ACD2300317164 /* StoryDay4 in Resources */ = {isa = PBXBuildFile; fileRef = DE3D9A80257ACD2300317164 /* StoryDay4 */; };
+		DE3D9A82257ACD2300317164 /* StoryDay4 in Resources */ = {isa = PBXBuildFile; fileRef = DE3D9A80257ACD2300317164 /* StoryDay4 */; };
+		DE3D9A83257ACD2300317164 /* StoryDay4 in Resources */ = {isa = PBXBuildFile; fileRef = DE3D9A80257ACD2300317164 /* StoryDay4 */; };
+		DE3D9A84257ACD2300317164 /* StoryDay4 in Resources */ = {isa = PBXBuildFile; fileRef = DE3D9A80257ACD2300317164 /* StoryDay4 */; };
 		DEE0F6FA2576D473005F1C91 /* Day1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0F6F92576D473005F1C91 /* Day1Tests.swift */; };
 		DEE0F7052576D473005F1C91 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0F7042576D473005F1C91 /* Tests_macOS.swift */; };
 		DEE0F7072576D473005F1C91 /* AoC2020App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0F6DE2576D470005F1C91 /* AoC2020App.swift */; };
@@ -45,6 +49,15 @@
 		DEE18C97257961D700148C53 /* TobogganTrajectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE18C7F2579601D00148C53 /* TobogganTrajectory.swift */; };
 		DEE18C9D2579778E00148C53 /* StoryDay3 in Resources */ = {isa = PBXBuildFile; fileRef = DEE18C9C2579778E00148C53 /* StoryDay3 */; };
 		DEE18C9E2579778E00148C53 /* StoryDay3 in Resources */ = {isa = PBXBuildFile; fileRef = DEE18C9C2579778E00148C53 /* StoryDay3 */; };
+		DEE18CAF257A209800148C53 /* PassportProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE18CAE257A209800148C53 /* PassportProcessing.swift */; };
+		DEE18CB0257A209800148C53 /* PassportProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE18CAE257A209800148C53 /* PassportProcessing.swift */; };
+		DEE18CB1257A209800148C53 /* PassportProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE18CAE257A209800148C53 /* PassportProcessing.swift */; };
+		DEE18CB2257A209800148C53 /* PassportProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE18CAE257A209800148C53 /* PassportProcessing.swift */; };
+		DEE18CB8257A214900148C53 /* Day4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE18CB7257A214900148C53 /* Day4Tests.swift */; };
+		DEE18CBE257A24AA00148C53 /* InputDay4 in Resources */ = {isa = PBXBuildFile; fileRef = DEE18CBD257A24AA00148C53 /* InputDay4 */; };
+		DEE18CBF257A24AA00148C53 /* InputDay4 in Resources */ = {isa = PBXBuildFile; fileRef = DEE18CBD257A24AA00148C53 /* InputDay4 */; };
+		DEE18CC0257A24AA00148C53 /* InputDay4 in Resources */ = {isa = PBXBuildFile; fileRef = DEE18CBD257A24AA00148C53 /* InputDay4 */; };
+		DEE18CC1257A24AA00148C53 /* InputDay4 in Resources */ = {isa = PBXBuildFile; fileRef = DEE18CBD257A24AA00148C53 /* InputDay4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +78,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE3D9A80257ACD2300317164 /* StoryDay4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoryDay4; sourceTree = "<group>"; };
 		DEE0F6DE2576D470005F1C91 /* AoC2020App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AoC2020App.swift; sourceTree = "<group>"; };
 		DEE0F6DF2576D470005F1C91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DEE0F6E02576D472005F1C91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -92,6 +106,9 @@
 		DEE18C7F2579601D00148C53 /* TobogganTrajectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TobogganTrajectory.swift; sourceTree = "<group>"; };
 		DEE18C8B2579609000148C53 /* InputDay3 */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay3; sourceTree = "<group>"; };
 		DEE18C9C2579778E00148C53 /* StoryDay3 */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoryDay3; sourceTree = "<group>"; };
+		DEE18CAE257A209800148C53 /* PassportProcessing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportProcessing.swift; sourceTree = "<group>"; };
+		DEE18CB7257A214900148C53 /* Day4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day4Tests.swift; sourceTree = "<group>"; };
+		DEE18CBD257A24AA00148C53 /* InputDay4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +143,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE3D9A77257ACCC600317164 /* Day4 */ = {
+			isa = PBXGroup;
+			children = (
+				DEE18CAE257A209800148C53 /* PassportProcessing.swift */,
+				DEE18CBD257A24AA00148C53 /* InputDay4 */,
+				DE3D9A80257ACD2300317164 /* StoryDay4 */,
+			);
+			path = Day4;
+			sourceTree = "<group>";
+		};
 		DEE0F6D82576D470005F1C91 = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +172,7 @@
 				DEE0F6DE2576D470005F1C91 /* AoC2020App.swift */,
 				DEE0F6DF2576D470005F1C91 /* ContentView.swift */,
 				DEE0F7622577FFC5005F1C91 /* FileReader.swift */,
+				DE3D9A77257ACCC600317164 /* Day4 */,
 				DEE18C862579604900148C53 /* Day3 */,
 				DEE0F79B257831BB005F1C91 /* Day2 */,
 				DEE0F72F2577EB31005F1C91 /* Day1 */,
@@ -187,6 +215,7 @@
 				DEE0F6F92576D473005F1C91 /* Day1Tests.swift */,
 				DEE0F78925780BBF005F1C91 /* Day2Tests.swift */,
 				DEE18C792578C23E00148C53 /* Day3Tests.swift */,
+				DEE18CB7257A214900148C53 /* Day4Tests.swift */,
 				DEE0F6FB2576D473005F1C91 /* Info.plist */,
 			);
 			path = "Tests iOS";
@@ -358,10 +387,12 @@
 				DEE18C8C2579609000148C53 /* InputDay3 in Resources */,
 				DEE0F7542577FE9E005F1C91 /* InputDay1 in Resources */,
 				DEE18C5E2578327100148C53 /* InputDay2 in Resources */,
+				DEE18CBE257A24AA00148C53 /* InputDay4 in Resources */,
 				DEE0F70B2576D473005F1C91 /* Assets.xcassets in Resources */,
 				DEE18C9D2579778E00148C53 /* StoryDay3 in Resources */,
 				DEE0F7522577FE9E005F1C91 /* StoryDay1 in Resources */,
 				DEE18C652578327F00148C53 /* StoryDay2 in Resources */,
+				DE3D9A81257ACD2300317164 /* StoryDay4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,10 +403,12 @@
 				DEE18C8D2579609000148C53 /* InputDay3 in Resources */,
 				DEE0F7552577FE9E005F1C91 /* InputDay1 in Resources */,
 				DEE18C5F2578327100148C53 /* InputDay2 in Resources */,
+				DEE18CBF257A24AA00148C53 /* InputDay4 in Resources */,
 				DEE0F70C2576D473005F1C91 /* Assets.xcassets in Resources */,
 				DEE18C9E2579778E00148C53 /* StoryDay3 in Resources */,
 				DEE0F7532577FE9E005F1C91 /* StoryDay1 in Resources */,
 				DEE18C662578327F00148C53 /* StoryDay2 in Resources */,
+				DE3D9A82257ACD2300317164 /* StoryDay4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +416,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE3D9A83257ACD2300317164 /* StoryDay4 in Resources */,
+				DEE18CC0257A24AA00148C53 /* InputDay4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +425,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE3D9A84257ACD2300317164 /* StoryDay4 in Resources */,
+				DEE18CC1257A24AA00148C53 /* InputDay4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +439,7 @@
 			files = (
 				DEE0F7292577EB1D005F1C91 /* ReportRepair.swift in Sources */,
 				DEE0F7092576D473005F1C91 /* ContentView.swift in Sources */,
+				DEE18CAF257A209800148C53 /* PassportProcessing.swift in Sources */,
 				DEE0F7632577FFC5005F1C91 /* FileReader.swift in Sources */,
 				DEE0F7072576D473005F1C91 /* AoC2020App.swift in Sources */,
 				DEE0F7952578316C005F1C91 /* PasswordPhilosophy.swift in Sources */,
@@ -415,6 +453,7 @@
 			files = (
 				DEE0F72A2577EB1D005F1C91 /* ReportRepair.swift in Sources */,
 				DEE0F70A2576D473005F1C91 /* ContentView.swift in Sources */,
+				DEE18CB0257A209800148C53 /* PassportProcessing.swift in Sources */,
 				DEE0F7642577FFC5005F1C91 /* FileReader.swift in Sources */,
 				DEE0F7082576D473005F1C91 /* AoC2020App.swift in Sources */,
 				DEE0F7962578316C005F1C91 /* PasswordPhilosophy.swift in Sources */,
@@ -430,9 +469,11 @@
 				DEE0F78A25780BBF005F1C91 /* Day2Tests.swift in Sources */,
 				DEE18C7A2578C23E00148C53 /* Day3Tests.swift in Sources */,
 				DEE0F76D2578007A005F1C91 /* FileReader.swift in Sources */,
+				DEE18CB1257A209800148C53 /* PassportProcessing.swift in Sources */,
 				DEE0F6FA2576D473005F1C91 /* Day1Tests.swift in Sources */,
 				DEE18C92257961D600148C53 /* TobogganTrajectory.swift in Sources */,
 				DEE18C6F257833C000148C53 /* PasswordPhilosophy.swift in Sources */,
+				DEE18CB8257A214900148C53 /* Day4Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +481,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEE18CB2257A209800148C53 /* PassportProcessing.swift in Sources */,
 				DEE0F77C257801FB005F1C91 /* ReportRepair.swift in Sources */,
 				DEE18C74257833C000148C53 /* PasswordPhilosophy.swift in Sources */,
 				DEE0F7722578007A005F1C91 /* FileReader.swift in Sources */,
