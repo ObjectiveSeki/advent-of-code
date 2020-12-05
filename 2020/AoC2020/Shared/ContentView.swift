@@ -8,11 +8,11 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Button("Generate Part 1") {
-                self.part1Value = PassportProcessing().generatePartOne(fromFile: "InputDay4")
+                self.part1Value = BinaryBoarding().generatePartOne(fromFile: "InputDay5")
                 print(self.part1Value)
             }.padding()
             Button("Generate Part 2") {
-                self.part2Value = PassportProcessing().generatePartTwo(fromFile: "InputDay4")
+                self.part2Value = BinaryBoarding().generatePartTwo(fromFile: "InputDay5")
                 print(self.part2Value)
             }.padding()
             Text("Part 1: \(part1Value)")
