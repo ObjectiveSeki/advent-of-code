@@ -28,6 +28,13 @@
 		DE3D9AB5257C25DD00317164 /* StoryDay5 in Resources */ = {isa = PBXBuildFile; fileRef = DE3D9AB3257C25DD00317164 /* StoryDay5 */; };
 		DE3D9AB6257C25DD00317164 /* StoryDay5 in Resources */ = {isa = PBXBuildFile; fileRef = DE3D9AB3257C25DD00317164 /* StoryDay5 */; };
 		DE3D9AB7257C25DD00317164 /* StoryDay5 in Resources */ = {isa = PBXBuildFile; fileRef = DE3D9AB3257C25DD00317164 /* StoryDay5 */; };
+		DEC96A3D257CF3BF008392CF /* Day6Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96A3C257CF3BF008392CF /* Day6Tests.swift */; };
+		DEC96A43257CF50C008392CF /* InputDay6 in Resources */ = {isa = PBXBuildFile; fileRef = DEC96A42257CF50C008392CF /* InputDay6 */; };
+		DEC96A49257CF53E008392CF /* CustomCustoms.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96A48257CF53E008392CF /* CustomCustoms.swift */; };
+		DEC96A4E257D7C0E008392CF /* CustomCustoms.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96A48257CF53E008392CF /* CustomCustoms.swift */; };
+		DEC96A53257D7C0F008392CF /* CustomCustoms.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96A48257CF53E008392CF /* CustomCustoms.swift */; };
+		DEC96A58257D7C0F008392CF /* CustomCustoms.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96A48257CF53E008392CF /* CustomCustoms.swift */; };
+		DEC96A5E257D7DFB008392CF /* StoryDay6 in Resources */ = {isa = PBXBuildFile; fileRef = DEC96A5D257D7DFB008392CF /* StoryDay6 */; };
 		DEE0F6FA2576D473005F1C91 /* Day1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0F6F92576D473005F1C91 /* Day1Tests.swift */; };
 		DEE0F7052576D473005F1C91 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0F7042576D473005F1C91 /* Tests_macOS.swift */; };
 		DEE0F7072576D473005F1C91 /* AoC2020App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0F6DE2576D470005F1C91 /* AoC2020App.swift */; };
@@ -101,6 +108,10 @@
 		DE3D9A9C257BDCC400317164 /* InputDay5 */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay5; sourceTree = "<group>"; };
 		DE3D9AA5257BDCE200317164 /* BinaryBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryBoarding.swift; sourceTree = "<group>"; };
 		DE3D9AB3257C25DD00317164 /* StoryDay5 */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoryDay5; sourceTree = "<group>"; };
+		DEC96A3C257CF3BF008392CF /* Day6Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day6Tests.swift; sourceTree = "<group>"; };
+		DEC96A42257CF50C008392CF /* InputDay6 */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay6; sourceTree = "<group>"; };
+		DEC96A48257CF53E008392CF /* CustomCustoms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCustoms.swift; sourceTree = "<group>"; };
+		DEC96A5D257D7DFB008392CF /* StoryDay6 */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoryDay6; sourceTree = "<group>"; };
 		DEE0F6DE2576D470005F1C91 /* AoC2020App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AoC2020App.swift; sourceTree = "<group>"; };
 		DEE0F6DF2576D470005F1C91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DEE0F6E02576D472005F1C91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -185,6 +196,16 @@
 			path = Day5;
 			sourceTree = "<group>";
 		};
+		DEC96A63257D7E07008392CF /* Day6 */ = {
+			isa = PBXGroup;
+			children = (
+				DEC96A48257CF53E008392CF /* CustomCustoms.swift */,
+				DEC96A42257CF50C008392CF /* InputDay6 */,
+				DEC96A5D257D7DFB008392CF /* StoryDay6 */,
+			);
+			path = Day6;
+			sourceTree = "<group>";
+		};
 		DEE0F6D82576D470005F1C91 = {
 			isa = PBXGroup;
 			children = (
@@ -205,6 +226,7 @@
 				DEE0F6DF2576D470005F1C91 /* ContentView.swift */,
 				DE3D9A8D257AD04300317164 /* Advent2020.swift */,
 				DEE0F7622577FFC5005F1C91 /* FileReader.swift */,
+				DEC96A63257D7E07008392CF /* Day6 */,
 				DE3D9AAE257C25BF00317164 /* Day5 */,
 				DE3D9A77257ACCC600317164 /* Day4 */,
 				DEE18C862579604900148C53 /* Day3 */,
@@ -251,6 +273,7 @@
 				DEE18C792578C23E00148C53 /* Day3Tests.swift */,
 				DEE18CB7257A214900148C53 /* Day4Tests.swift */,
 				DE3D9A96257BD8C600317164 /* Day5Tests.swift */,
+				DEC96A3C257CF3BF008392CF /* Day6Tests.swift */,
 				DEE0F6FB2576D473005F1C91 /* Info.plist */,
 			);
 			path = "Tests iOS";
@@ -424,10 +447,12 @@
 				DEE0F7542577FE9E005F1C91 /* InputDay1 in Resources */,
 				DEE18C5E2578327100148C53 /* InputDay2 in Resources */,
 				DEE18CBE257A24AA00148C53 /* InputDay4 in Resources */,
+				DEC96A5E257D7DFB008392CF /* StoryDay6 in Resources */,
 				DEE0F70B2576D473005F1C91 /* Assets.xcassets in Resources */,
 				DEE18C9D2579778E00148C53 /* StoryDay3 in Resources */,
 				DEE0F7522577FE9E005F1C91 /* StoryDay1 in Resources */,
 				DEE18C652578327F00148C53 /* StoryDay2 in Resources */,
+				DEC96A43257CF50C008392CF /* InputDay6 in Resources */,
 				DE3D9A81257ACD2300317164 /* StoryDay4 in Resources */,
 				DE3D9AB4257C25DD00317164 /* StoryDay5 in Resources */,
 			);
@@ -483,6 +508,7 @@
 				DEE0F7292577EB1D005F1C91 /* ReportRepair.swift in Sources */,
 				DE3D9A8E257AD04300317164 /* Advent2020.swift in Sources */,
 				DEE0F7092576D473005F1C91 /* ContentView.swift in Sources */,
+				DEC96A49257CF53E008392CF /* CustomCustoms.swift in Sources */,
 				DEE18CAF257A209800148C53 /* PassportProcessing.swift in Sources */,
 				DEE0F7632577FFC5005F1C91 /* FileReader.swift in Sources */,
 				DEE0F7072576D473005F1C91 /* AoC2020App.swift in Sources */,
@@ -499,6 +525,7 @@
 				DEE0F72A2577EB1D005F1C91 /* ReportRepair.swift in Sources */,
 				DE3D9A8F257AD04300317164 /* Advent2020.swift in Sources */,
 				DEE0F70A2576D473005F1C91 /* ContentView.swift in Sources */,
+				DEC96A4E257D7C0E008392CF /* CustomCustoms.swift in Sources */,
 				DEE18CB0257A209800148C53 /* PassportProcessing.swift in Sources */,
 				DEE0F7642577FFC5005F1C91 /* FileReader.swift in Sources */,
 				DEE0F7082576D473005F1C91 /* AoC2020App.swift in Sources */,
@@ -513,6 +540,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEE0F777257801FA005F1C91 /* ReportRepair.swift in Sources */,
+				DEC96A53257D7C0F008392CF /* CustomCustoms.swift in Sources */,
 				DEE0F78A25780BBF005F1C91 /* Day2Tests.swift in Sources */,
 				DE3D9AA8257BDCE200317164 /* BinaryBoarding.swift in Sources */,
 				DEE18C7A2578C23E00148C53 /* Day3Tests.swift in Sources */,
@@ -521,6 +549,7 @@
 				DEE0F6FA2576D473005F1C91 /* Day1Tests.swift in Sources */,
 				DEE18C92257961D600148C53 /* TobogganTrajectory.swift in Sources */,
 				DEE18C6F257833C000148C53 /* PasswordPhilosophy.swift in Sources */,
+				DEC96A3D257CF3BF008392CF /* Day6Tests.swift in Sources */,
 				DEE18CB8257A214900148C53 /* Day4Tests.swift in Sources */,
 				DE3D9A97257BD8C600317164 /* Day5Tests.swift in Sources */,
 				DE3D9A90257AD04300317164 /* Advent2020.swift in Sources */,
@@ -538,6 +567,7 @@
 				DE3D9A91257AD04300317164 /* Advent2020.swift in Sources */,
 				DEE0F7722578007A005F1C91 /* FileReader.swift in Sources */,
 				DEE18C97257961D700148C53 /* TobogganTrajectory.swift in Sources */,
+				DEC96A58257D7C0F008392CF /* CustomCustoms.swift in Sources */,
 				DEE0F7052576D473005F1C91 /* Tests_macOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
