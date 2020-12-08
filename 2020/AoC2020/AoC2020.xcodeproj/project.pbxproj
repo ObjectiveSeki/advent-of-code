@@ -28,6 +28,16 @@
 		DE3D9AB5257C25DD00317164 /* StoryDay5 in Resources */ = {isa = PBXBuildFile; fileRef = DE3D9AB3257C25DD00317164 /* StoryDay5 */; };
 		DE3D9AB6257C25DD00317164 /* StoryDay5 in Resources */ = {isa = PBXBuildFile; fileRef = DE3D9AB3257C25DD00317164 /* StoryDay5 */; };
 		DE3D9AB7257C25DD00317164 /* StoryDay5 in Resources */ = {isa = PBXBuildFile; fileRef = DE3D9AB3257C25DD00317164 /* StoryDay5 */; };
+		DE72BA10257F889100E10F16 /* Day8Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE72BA0F257F889100E10F16 /* Day8Tests.swift */; };
+		DE841222257F8B0700B483D7 /* InputDay8 in Resources */ = {isa = PBXBuildFile; fileRef = DE841221257F8B0700B483D7 /* InputDay8 */; };
+		DE841228257F8B2700B483D7 /* HandheldHalting.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE841227257F8B2700B483D7 /* HandheldHalting.swift */; };
+		DE841229257F8B2700B483D7 /* HandheldHalting.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE841227257F8B2700B483D7 /* HandheldHalting.swift */; };
+		DE84122A257F8B2700B483D7 /* HandheldHalting.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE841227257F8B2700B483D7 /* HandheldHalting.swift */; };
+		DE84122B257F8B2700B483D7 /* HandheldHalting.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE841227257F8B2700B483D7 /* HandheldHalting.swift */; };
+		DE841231257FA27400B483D7 /* StoryDay8 in Resources */ = {isa = PBXBuildFile; fileRef = DE841230257FA27400B483D7 /* StoryDay8 */; };
+		DE841232257FA27400B483D7 /* StoryDay8 in Resources */ = {isa = PBXBuildFile; fileRef = DE841230257FA27400B483D7 /* StoryDay8 */; };
+		DE841233257FA27400B483D7 /* StoryDay8 in Resources */ = {isa = PBXBuildFile; fileRef = DE841230257FA27400B483D7 /* StoryDay8 */; };
+		DE841234257FA27400B483D7 /* StoryDay8 in Resources */ = {isa = PBXBuildFile; fileRef = DE841230257FA27400B483D7 /* StoryDay8 */; };
 		DEC96A3D257CF3BF008392CF /* Day6Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96A3C257CF3BF008392CF /* Day6Tests.swift */; };
 		DEC96A43257CF50C008392CF /* InputDay6 in Resources */ = {isa = PBXBuildFile; fileRef = DEC96A42257CF50C008392CF /* InputDay6 */; };
 		DEC96A49257CF53E008392CF /* CustomCustoms.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96A48257CF53E008392CF /* CustomCustoms.swift */; };
@@ -117,6 +127,10 @@
 		DE3D9A9C257BDCC400317164 /* InputDay5 */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay5; sourceTree = "<group>"; };
 		DE3D9AA5257BDCE200317164 /* BinaryBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryBoarding.swift; sourceTree = "<group>"; };
 		DE3D9AB3257C25DD00317164 /* StoryDay5 */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoryDay5; sourceTree = "<group>"; };
+		DE72BA0F257F889100E10F16 /* Day8Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day8Tests.swift; sourceTree = "<group>"; };
+		DE841221257F8B0700B483D7 /* InputDay8 */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay8; sourceTree = "<group>"; };
+		DE841227257F8B2700B483D7 /* HandheldHalting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandheldHalting.swift; sourceTree = "<group>"; };
+		DE841230257FA27400B483D7 /* StoryDay8 */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoryDay8; sourceTree = "<group>"; };
 		DEC96A3C257CF3BF008392CF /* Day6Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day6Tests.swift; sourceTree = "<group>"; };
 		DEC96A42257CF50C008392CF /* InputDay6 */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay6; sourceTree = "<group>"; };
 		DEC96A48257CF53E008392CF /* CustomCustoms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCustoms.swift; sourceTree = "<group>"; };
@@ -208,6 +222,16 @@
 			path = Day5;
 			sourceTree = "<group>";
 		};
+		DE841239257FA29900B483D7 /* Day8 */ = {
+			isa = PBXGroup;
+			children = (
+				DE841227257F8B2700B483D7 /* HandheldHalting.swift */,
+				DE841221257F8B0700B483D7 /* InputDay8 */,
+				DE841230257FA27400B483D7 /* StoryDay8 */,
+			);
+			path = Day8;
+			sourceTree = "<group>";
+		};
 		DEC96A63257D7E07008392CF /* Day6 */ = {
 			isa = PBXGroup;
 			children = (
@@ -247,6 +271,7 @@
 				DEE0F6DF2576D470005F1C91 /* ContentView.swift */,
 				DE3D9A8D257AD04300317164 /* Advent2020.swift */,
 				DEE0F7622577FFC5005F1C91 /* FileReader.swift */,
+				DE841239257FA29900B483D7 /* Day8 */,
 				DEC96A88257EE94F008392CF /* Day7 */,
 				DEC96A63257D7E07008392CF /* Day6 */,
 				DE3D9AAE257C25BF00317164 /* Day5 */,
@@ -297,6 +322,7 @@
 				DE3D9A96257BD8C600317164 /* Day5Tests.swift */,
 				DEC96A3C257CF3BF008392CF /* Day6Tests.swift */,
 				DEC96A70257EDB2E008392CF /* Day7Tests.swift */,
+				DE72BA0F257F889100E10F16 /* Day8Tests.swift */,
 				DEE0F6FB2576D473005F1C91 /* Info.plist */,
 			);
 			path = "Tests iOS";
@@ -465,6 +491,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE841231257FA27400B483D7 /* StoryDay8 in Resources */,
 				DE3D9A9D257BDCC400317164 /* InputDay5 in Resources */,
 				DEE18C8C2579609000148C53 /* InputDay3 in Resources */,
 				DEE0F7542577FE9E005F1C91 /* InputDay1 in Resources */,
@@ -474,6 +501,7 @@
 				DEE0F70B2576D473005F1C91 /* Assets.xcassets in Resources */,
 				DEE18C9D2579778E00148C53 /* StoryDay3 in Resources */,
 				DEE0F7522577FE9E005F1C91 /* StoryDay1 in Resources */,
+				DE841222257F8B0700B483D7 /* InputDay8 in Resources */,
 				DEE18C652578327F00148C53 /* StoryDay2 in Resources */,
 				DEC96A80257EDDD6008392CF /* InputDay7 in Resources */,
 				DEC96A43257CF50C008392CF /* InputDay6 in Resources */,
@@ -497,6 +525,7 @@
 				DEE0F7532577FE9E005F1C91 /* StoryDay1 in Resources */,
 				DEE18C662578327F00148C53 /* StoryDay2 in Resources */,
 				DE3D9A82257ACD2300317164 /* StoryDay4 in Resources */,
+				DE841232257FA27400B483D7 /* StoryDay8 in Resources */,
 				DE3D9AB5257C25DD00317164 /* StoryDay5 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +536,7 @@
 			files = (
 				DE3D9A9F257BDCC400317164 /* InputDay5 in Resources */,
 				DEC96A82257EDDD6008392CF /* InputDay7 in Resources */,
+				DE841233257FA27400B483D7 /* StoryDay8 in Resources */,
 				DE3D9AB6257C25DD00317164 /* StoryDay5 in Resources */,
 				DE3D9A83257ACD2300317164 /* StoryDay4 in Resources */,
 				DEE18CC0257A24AA00148C53 /* InputDay4 in Resources */,
@@ -519,6 +549,7 @@
 			files = (
 				DE3D9AA0257BDCC400317164 /* InputDay5 in Resources */,
 				DEC96A83257EDDD6008392CF /* InputDay7 in Resources */,
+				DE841234257FA27400B483D7 /* StoryDay8 in Resources */,
 				DE3D9AB7257C25DD00317164 /* StoryDay5 in Resources */,
 				DE3D9A84257ACD2300317164 /* StoryDay4 in Resources */,
 				DEE18CC1257A24AA00148C53 /* InputDay4 in Resources */,
@@ -539,6 +570,7 @@
 				DEE18CAF257A209800148C53 /* PassportProcessing.swift in Sources */,
 				DEE0F7632577FFC5005F1C91 /* FileReader.swift in Sources */,
 				DEE0F7072576D473005F1C91 /* AoC2020App.swift in Sources */,
+				DE841228257F8B2700B483D7 /* HandheldHalting.swift in Sources */,
 				DEE0F7952578316C005F1C91 /* PasswordPhilosophy.swift in Sources */,
 				DEE18C802579601D00148C53 /* TobogganTrajectory.swift in Sources */,
 				DEC96A77257EDD01008392CF /* HandyHaversacks.swift in Sources */,
@@ -557,6 +589,7 @@
 				DEE18CB0257A209800148C53 /* PassportProcessing.swift in Sources */,
 				DEE0F7642577FFC5005F1C91 /* FileReader.swift in Sources */,
 				DEE0F7082576D473005F1C91 /* AoC2020App.swift in Sources */,
+				DE841229257F8B2700B483D7 /* HandheldHalting.swift in Sources */,
 				DEE0F7962578316C005F1C91 /* PasswordPhilosophy.swift in Sources */,
 				DEE18C812579601D00148C53 /* TobogganTrajectory.swift in Sources */,
 				DEC96A78257EDD01008392CF /* HandyHaversacks.swift in Sources */,
@@ -575,8 +608,10 @@
 				DEE18C7A2578C23E00148C53 /* Day3Tests.swift in Sources */,
 				DEE0F76D2578007A005F1C91 /* FileReader.swift in Sources */,
 				DEE18CB1257A209800148C53 /* PassportProcessing.swift in Sources */,
+				DE84122A257F8B2700B483D7 /* HandheldHalting.swift in Sources */,
 				DEE0F6FA2576D473005F1C91 /* Day1Tests.swift in Sources */,
 				DEE18C92257961D600148C53 /* TobogganTrajectory.swift in Sources */,
+				DE72BA10257F889100E10F16 /* Day8Tests.swift in Sources */,
 				DEC96A71257EDB2E008392CF /* Day7Tests.swift in Sources */,
 				DEE18C6F257833C000148C53 /* PasswordPhilosophy.swift in Sources */,
 				DEC96A3D257CF3BF008392CF /* Day6Tests.swift in Sources */,
@@ -591,6 +626,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE84122B257F8B2700B483D7 /* HandheldHalting.swift in Sources */,
 				DEE18CB2257A209800148C53 /* PassportProcessing.swift in Sources */,
 				DEC96A7A257EDD01008392CF /* HandyHaversacks.swift in Sources */,
 				DEE0F77C257801FB005F1C91 /* ReportRepair.swift in Sources */,
