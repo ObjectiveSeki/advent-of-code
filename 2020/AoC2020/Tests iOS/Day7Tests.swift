@@ -17,14 +17,42 @@ class Day7Tests: XCTestCase {
         "dotted black bags contain no other bags.",
     ]
 
+    let input2 = [
+        "shiny gold bags contain 2 dark red bags.",
+        "dark red bags contain 2 dark orange bags.",
+        "dark orange bags contain 2 dark yellow bags.",
+        "dark yellow bags contain 2 dark green bags.",
+        "dark green bags contain 2 dark blue bags.",
+        "dark blue bags contain 2 dark violet bags.",
+        "dark violet bags contain no other bags.",
+    ]
+
     override func setUpWithError() throws {}
 
     override func tearDownWithError() throws {}
 
     func testOne() throws {
         let sut = HandyHaversacks()
-        let result = sut.calculate("shinygold", input)
+        let result = sut.calculate1("shinygold", input)
         XCTAssertEqual(result, 4)
+    }
+
+    func testTwo() throws {
+        let sut = HandyHaversacks()
+        let result = sut.calculate1("fadedblue", input)
+        XCTAssertEqual(result, 7)
+    }
+
+    func testThree() throws {
+        let sut = HandyHaversacks()
+        let result = sut.calculate2("shinygold", input)
+        XCTAssertEqual(result, 32)
+    }
+
+    func testFour() throws {
+        let sut = HandyHaversacks()
+        let result = sut.calculate2("shinygold", input2)
+        XCTAssertEqual(result, 126)
     }
 
 }

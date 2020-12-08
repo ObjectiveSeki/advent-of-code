@@ -38,6 +38,10 @@
 		DE841232257FA27400B483D7 /* StoryDay8 in Resources */ = {isa = PBXBuildFile; fileRef = DE841230257FA27400B483D7 /* StoryDay8 */; };
 		DE841233257FA27400B483D7 /* StoryDay8 in Resources */ = {isa = PBXBuildFile; fileRef = DE841230257FA27400B483D7 /* StoryDay8 */; };
 		DE841234257FA27400B483D7 /* StoryDay8 in Resources */ = {isa = PBXBuildFile; fileRef = DE841230257FA27400B483D7 /* StoryDay8 */; };
+		DE8412442580280700B483D7 /* StoryDay7 in Resources */ = {isa = PBXBuildFile; fileRef = DE8412432580280700B483D7 /* StoryDay7 */; };
+		DE8412452580280700B483D7 /* StoryDay7 in Resources */ = {isa = PBXBuildFile; fileRef = DE8412432580280700B483D7 /* StoryDay7 */; };
+		DE8412462580280700B483D7 /* StoryDay7 in Resources */ = {isa = PBXBuildFile; fileRef = DE8412432580280700B483D7 /* StoryDay7 */; };
+		DE8412472580280700B483D7 /* StoryDay7 in Resources */ = {isa = PBXBuildFile; fileRef = DE8412432580280700B483D7 /* StoryDay7 */; };
 		DEC96A3D257CF3BF008392CF /* Day6Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96A3C257CF3BF008392CF /* Day6Tests.swift */; };
 		DEC96A43257CF50C008392CF /* InputDay6 in Resources */ = {isa = PBXBuildFile; fileRef = DEC96A42257CF50C008392CF /* InputDay6 */; };
 		DEC96A49257CF53E008392CF /* CustomCustoms.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC96A48257CF53E008392CF /* CustomCustoms.swift */; };
@@ -131,6 +135,7 @@
 		DE841221257F8B0700B483D7 /* InputDay8 */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay8; sourceTree = "<group>"; };
 		DE841227257F8B2700B483D7 /* HandheldHalting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandheldHalting.swift; sourceTree = "<group>"; };
 		DE841230257FA27400B483D7 /* StoryDay8 */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoryDay8; sourceTree = "<group>"; };
+		DE8412432580280700B483D7 /* StoryDay7 */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoryDay7; sourceTree = "<group>"; };
 		DEC96A3C257CF3BF008392CF /* Day6Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day6Tests.swift; sourceTree = "<group>"; };
 		DEC96A42257CF50C008392CF /* InputDay6 */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay6; sourceTree = "<group>"; };
 		DEC96A48257CF53E008392CF /* CustomCustoms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCustoms.swift; sourceTree = "<group>"; };
@@ -247,6 +252,7 @@
 			children = (
 				DEC96A76257EDD01008392CF /* HandyHaversacks.swift */,
 				DEC96A7F257EDDD6008392CF /* InputDay7 */,
+				DE8412432580280700B483D7 /* StoryDay7 */,
 			);
 			path = Day7;
 			sourceTree = "<group>";
@@ -498,6 +504,7 @@
 				DEE18C5E2578327100148C53 /* InputDay2 in Resources */,
 				DEE18CBE257A24AA00148C53 /* InputDay4 in Resources */,
 				DEC96A5E257D7DFB008392CF /* StoryDay6 in Resources */,
+				DE8412442580280700B483D7 /* StoryDay7 in Resources */,
 				DEE0F70B2576D473005F1C91 /* Assets.xcassets in Resources */,
 				DEE18C9D2579778E00148C53 /* StoryDay3 in Resources */,
 				DEE0F7522577FE9E005F1C91 /* StoryDay1 in Resources */,
@@ -519,6 +526,7 @@
 				DEE0F7552577FE9E005F1C91 /* InputDay1 in Resources */,
 				DEE18C5F2578327100148C53 /* InputDay2 in Resources */,
 				DEE18CBF257A24AA00148C53 /* InputDay4 in Resources */,
+				DE8412452580280700B483D7 /* StoryDay7 in Resources */,
 				DEE0F70C2576D473005F1C91 /* Assets.xcassets in Resources */,
 				DEC96A81257EDDD6008392CF /* InputDay7 in Resources */,
 				DEE18C9E2579778E00148C53 /* StoryDay3 in Resources */,
@@ -539,6 +547,7 @@
 				DE841233257FA27400B483D7 /* StoryDay8 in Resources */,
 				DE3D9AB6257C25DD00317164 /* StoryDay5 in Resources */,
 				DE3D9A83257ACD2300317164 /* StoryDay4 in Resources */,
+				DE8412462580280700B483D7 /* StoryDay7 in Resources */,
 				DEE18CC0257A24AA00148C53 /* InputDay4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -552,6 +561,7 @@
 				DE841234257FA27400B483D7 /* StoryDay8 in Resources */,
 				DE3D9AB7257C25DD00317164 /* StoryDay5 in Resources */,
 				DE3D9A84257ACD2300317164 /* StoryDay4 in Resources */,
+				DE8412472580280700B483D7 /* StoryDay7 in Resources */,
 				DEE18CC1257A24AA00148C53 /* InputDay4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
