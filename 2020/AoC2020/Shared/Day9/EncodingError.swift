@@ -58,7 +58,7 @@ class EncodingError: FileReader, Generatable {
         return villain
     }
 
-    func calculate2(_ input: [String], _ preamble: Int) -> Int {
+    func calculate2Slow(_ input: [String], _ preamble: Int) -> Int {
         let villain = calculate1Fast(input, preamble)
         let array = input.map { Int($0) }
         // Possible contiguous set starting at each i
@@ -69,6 +69,28 @@ class EncodingError: FileReader, Generatable {
             while values.reduce(0, +) < villain {
                 values.append(array[j]!)
                 j += 1
+            }
+            // If the sum is exactly villain, we're home
+            if values.reduce(0, +) == villain {
+                let sorted = values.sorted { $0 < $1 }
+                return sorted.first! + sorted.last!
+            }
+        }
+        return 0
+    }
+
+    func calculate2Fast(_ input: [String], _ preamble: Int) -> Int {
+        let villain = calculate1Fast(input, preamble)
+        let array = input.map { Int($0) }
+        // Possible contiguous set starting at each i (reversed)
+        for i in (0..<array.count).reversed() {
+            var values = [Int]()
+            var j = i
+            if array[j] == villain { continue }
+            // Start adding values only while the sum is less than villain
+            while values.reduce(0, +) < villain {
+                values.append(array[j]!)
+                j -= 1
             }
             // If the sum is exactly villain, we're home
             if values.reduce(0, +) == villain {
@@ -90,7 +112,7 @@ class EncodingError: FileReader, Generatable {
 
     func generatePartTwo(fromFile input: String) -> String {
         let array = stringArrayNewLine(fromFile: input)
-        let result = calculate2(array, 25)
+        let result = calculate2Fast(array, 25)
         return String(result)
     }
 

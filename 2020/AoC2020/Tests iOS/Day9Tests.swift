@@ -46,7 +46,13 @@ class Day9Tests: XCTestCase {
 
     func testThree() throws {
         let sut = EncodingError()
-        let result = sut.calculate2(input, 5)
+        let result = sut.calculate2Slow(input, 5)
+        XCTAssertEqual(result, 62)
+    }
+
+    func testFour() throws {
+        let sut = EncodingError()
+        let result = sut.calculate2Fast(input, 5)
         XCTAssertEqual(result, 62)
     }
 
