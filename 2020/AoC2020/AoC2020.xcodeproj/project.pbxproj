@@ -28,6 +28,15 @@
 		DE3D9AB5257C25DD00317164 /* StoryDay5 in Resources */ = {isa = PBXBuildFile; fileRef = DE3D9AB3257C25DD00317164 /* StoryDay5 */; };
 		DE3D9AB6257C25DD00317164 /* StoryDay5 in Resources */ = {isa = PBXBuildFile; fileRef = DE3D9AB3257C25DD00317164 /* StoryDay5 */; };
 		DE3D9AB7257C25DD00317164 /* StoryDay5 in Resources */ = {isa = PBXBuildFile; fileRef = DE3D9AB3257C25DD00317164 /* StoryDay5 */; };
+		DE716EFC25841011005E4730 /* Day11Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE716EFB25841011005E4730 /* Day11Tests.swift */; };
+		DE716F02258423E9005E4730 /* SeatingSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE716F01258423E9005E4730 /* SeatingSystem.swift */; };
+		DE716F03258423E9005E4730 /* SeatingSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE716F01258423E9005E4730 /* SeatingSystem.swift */; };
+		DE716F04258423E9005E4730 /* SeatingSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE716F01258423E9005E4730 /* SeatingSystem.swift */; };
+		DE716F05258423E9005E4730 /* SeatingSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE716F01258423E9005E4730 /* SeatingSystem.swift */; };
+		DE716F0B25842464005E4730 /* InputDay11 in Resources */ = {isa = PBXBuildFile; fileRef = DE716F0A25842464005E4730 /* InputDay11 */; };
+		DE716F0C25842464005E4730 /* InputDay11 in Resources */ = {isa = PBXBuildFile; fileRef = DE716F0A25842464005E4730 /* InputDay11 */; };
+		DE716F0D25842464005E4730 /* InputDay11 in Resources */ = {isa = PBXBuildFile; fileRef = DE716F0A25842464005E4730 /* InputDay11 */; };
+		DE716F0E25842464005E4730 /* InputDay11 in Resources */ = {isa = PBXBuildFile; fileRef = DE716F0A25842464005E4730 /* InputDay11 */; };
 		DE72BA10257F889100E10F16 /* Day8Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE72BA0F257F889100E10F16 /* Day8Tests.swift */; };
 		DE841222257F8B0700B483D7 /* InputDay8 in Resources */ = {isa = PBXBuildFile; fileRef = DE841221257F8B0700B483D7 /* InputDay8 */; };
 		DE841228257F8B2700B483D7 /* HandheldHalting.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE841227257F8B2700B483D7 /* HandheldHalting.swift */; };
@@ -147,6 +156,9 @@
 		DE3D9A9C257BDCC400317164 /* InputDay5 */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay5; sourceTree = "<group>"; };
 		DE3D9AA5257BDCE200317164 /* BinaryBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryBoarding.swift; sourceTree = "<group>"; };
 		DE3D9AB3257C25DD00317164 /* StoryDay5 */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoryDay5; sourceTree = "<group>"; };
+		DE716EFB25841011005E4730 /* Day11Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day11Tests.swift; sourceTree = "<group>"; };
+		DE716F01258423E9005E4730 /* SeatingSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatingSystem.swift; sourceTree = "<group>"; };
+		DE716F0A25842464005E4730 /* InputDay11 */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay11; sourceTree = "<group>"; };
 		DE72BA0F257F889100E10F16 /* Day8Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day8Tests.swift; sourceTree = "<group>"; };
 		DE841221257F8B0700B483D7 /* InputDay8 */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay8; sourceTree = "<group>"; };
 		DE841227257F8B2700B483D7 /* HandheldHalting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandheldHalting.swift; sourceTree = "<group>"; };
@@ -259,6 +271,15 @@
 			path = Day10;
 			sourceTree = "<group>";
 		};
+		DE716F13258426EA005E4730 /* Day11 */ = {
+			isa = PBXGroup;
+			children = (
+				DE716F01258423E9005E4730 /* SeatingSystem.swift */,
+				DE716F0A25842464005E4730 /* InputDay11 */,
+			);
+			path = Day11;
+			sourceTree = "<group>";
+		};
 		DE841239257FA29900B483D7 /* Day8 */ = {
 			isa = PBXGroup;
 			children = (
@@ -319,6 +340,7 @@
 				DEE0F6DF2576D470005F1C91 /* ContentView.swift */,
 				DE3D9A8D257AD04300317164 /* Advent2020.swift */,
 				DEE0F7622577FFC5005F1C91 /* FileReader.swift */,
+				DE716F13258426EA005E4730 /* Day11 */,
 				DE5F461F25834E2400A54C31 /* Day10 */,
 				DEB6D4FB25816ACF00B6A71E /* Day9 */,
 				DE841239257FA29900B483D7 /* Day8 */,
@@ -375,6 +397,7 @@
 				DE72BA0F257F889100E10F16 /* Day8Tests.swift */,
 				DE84124C2580EA5200B483D7 /* Day9Tests.swift */,
 				DEB6D5042582079800B6A71E /* Day10Tests.swift */,
+				DE716EFB25841011005E4730 /* Day11Tests.swift */,
 				DEE0F6FB2576D473005F1C91 /* Info.plist */,
 			);
 			path = "Tests iOS";
@@ -558,6 +581,7 @@
 				DEE18C652578327F00148C53 /* StoryDay2 in Resources */,
 				DEB6D50B2582091700B6A71E /* InputDay10 in Resources */,
 				DEC96A80257EDDD6008392CF /* InputDay7 in Resources */,
+				DE716F0B25842464005E4730 /* InputDay11 in Resources */,
 				DEB6D4F625816AB300B6A71E /* StoryDay9 in Resources */,
 				DEC96A43257CF50C008392CF /* InputDay6 in Resources */,
 				DE84125C2580ED8100B483D7 /* InputDay9 in Resources */,
@@ -580,6 +604,7 @@
 				DEC96A81257EDDD6008392CF /* InputDay7 in Resources */,
 				DEE18C9E2579778E00148C53 /* StoryDay3 in Resources */,
 				DE84125D2580ED8100B483D7 /* InputDay9 in Resources */,
+				DE716F0C25842464005E4730 /* InputDay11 in Resources */,
 				DEE0F7532577FE9E005F1C91 /* StoryDay1 in Resources */,
 				DEE18C662578327F00148C53 /* StoryDay2 in Resources */,
 				DE3D9A82257ACD2300317164 /* StoryDay4 in Resources */,
@@ -598,6 +623,7 @@
 				DE3D9AB6257C25DD00317164 /* StoryDay5 in Resources */,
 				DE3D9A83257ACD2300317164 /* StoryDay4 in Resources */,
 				DE8412462580280700B483D7 /* StoryDay7 in Resources */,
+				DE716F0D25842464005E4730 /* InputDay11 in Resources */,
 				DEE18CC0257A24AA00148C53 /* InputDay4 in Resources */,
 				DE84125E2580ED8100B483D7 /* InputDay9 in Resources */,
 			);
@@ -613,6 +639,7 @@
 				DE3D9AB7257C25DD00317164 /* StoryDay5 in Resources */,
 				DE3D9A84257ACD2300317164 /* StoryDay4 in Resources */,
 				DE8412472580280700B483D7 /* StoryDay7 in Resources */,
+				DE716F0E25842464005E4730 /* InputDay11 in Resources */,
 				DEE18CC1257A24AA00148C53 /* InputDay4 in Resources */,
 				DE84125F2580ED8100B483D7 /* InputDay9 in Resources */,
 			);
@@ -625,6 +652,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE716F02258423E9005E4730 /* SeatingSystem.swift in Sources */,
 				DEE0F7292577EB1D005F1C91 /* ReportRepair.swift in Sources */,
 				DEB6D5112582092B00B6A71E /* AdapterArray.swift in Sources */,
 				DE3D9A8E257AD04300317164 /* Advent2020.swift in Sources */,
@@ -646,6 +674,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE716F03258423E9005E4730 /* SeatingSystem.swift in Sources */,
 				DEE0F72A2577EB1D005F1C91 /* ReportRepair.swift in Sources */,
 				DEB6D5162582094A00B6A71E /* AdapterArray.swift in Sources */,
 				DE3D9A8F257AD04300317164 /* Advent2020.swift in Sources */,
@@ -673,12 +702,14 @@
 				DE3D9AA8257BDCE200317164 /* BinaryBoarding.swift in Sources */,
 				DEE18C7A2578C23E00148C53 /* Day3Tests.swift in Sources */,
 				DEE0F76D2578007A005F1C91 /* FileReader.swift in Sources */,
+				DE716F04258423E9005E4730 /* SeatingSystem.swift in Sources */,
 				DEE18CB1257A209800148C53 /* PassportProcessing.swift in Sources */,
 				DE84122A257F8B2700B483D7 /* HandheldHalting.swift in Sources */,
 				DEE0F6FA2576D473005F1C91 /* Day1Tests.swift in Sources */,
 				DEB6D51B2582094B00B6A71E /* AdapterArray.swift in Sources */,
 				DEE18C92257961D600148C53 /* TobogganTrajectory.swift in Sources */,
 				DE72BA10257F889100E10F16 /* Day8Tests.swift in Sources */,
+				DE716EFC25841011005E4730 /* Day11Tests.swift in Sources */,
 				DEC96A71257EDB2E008392CF /* Day7Tests.swift in Sources */,
 				DEE18C6F257833C000148C53 /* PasswordPhilosophy.swift in Sources */,
 				DEB6D5052582079800B6A71E /* Day10Tests.swift in Sources */,
@@ -708,6 +739,7 @@
 				DEE0F7722578007A005F1C91 /* FileReader.swift in Sources */,
 				DEE18C97257961D700148C53 /* TobogganTrajectory.swift in Sources */,
 				DEC96A58257D7C0F008392CF /* CustomCustoms.swift in Sources */,
+				DE716F05258423E9005E4730 /* SeatingSystem.swift in Sources */,
 				DEE0F7052576D473005F1C91 /* Tests_macOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

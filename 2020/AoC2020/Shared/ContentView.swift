@@ -8,11 +8,11 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Button("Generate Part 1") {
-                self.part1Value = AdapterArray().generatePartOne(fromFile: "InputDay10")
+                self.part1Value = SeatingSystem().generatePartOne(fromFile: "InputDay11")
                 print(self.part1Value)
             }.padding()
             Button("Generate Part 2") {
-                self.part2Value = AdapterArray().generatePartTwo(fromFile: "InputDay10")
+                self.part2Value = SeatingSystem().generatePartTwo(fromFile: "InputDay11")
                 print(self.part2Value)
             }.padding()
             Text("Part 1: \(part1Value)")
