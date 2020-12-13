@@ -60,6 +60,11 @@
 		DE84125D2580ED8100B483D7 /* InputDay9 in Resources */ = {isa = PBXBuildFile; fileRef = DE84125B2580ED8100B483D7 /* InputDay9 */; };
 		DE84125E2580ED8100B483D7 /* InputDay9 in Resources */ = {isa = PBXBuildFile; fileRef = DE84125B2580ED8100B483D7 /* InputDay9 */; };
 		DE84125F2580ED8100B483D7 /* InputDay9 in Resources */ = {isa = PBXBuildFile; fileRef = DE84125B2580ED8100B483D7 /* InputDay9 */; };
+		DE9C010B2586743E001DFBAD /* Day12Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9C010A2586743E001DFBAD /* Day12Tests.swift */; };
+		DE9C01112586748F001DFBAD /* RainRisk.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9C01102586748F001DFBAD /* RainRisk.swift */; };
+		DE9C01122586748F001DFBAD /* RainRisk.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9C01102586748F001DFBAD /* RainRisk.swift */; };
+		DE9C01132586748F001DFBAD /* RainRisk.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9C01102586748F001DFBAD /* RainRisk.swift */; };
+		DE9C01142586748F001DFBAD /* RainRisk.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9C01102586748F001DFBAD /* RainRisk.swift */; };
 		DEB6D4F625816AB300B6A71E /* StoryDay9 in Resources */ = {isa = PBXBuildFile; fileRef = DEB6D4F525816AB300B6A71E /* StoryDay9 */; };
 		DEB6D5052582079800B6A71E /* Day10Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB6D5042582079800B6A71E /* Day10Tests.swift */; };
 		DEB6D50B2582091700B6A71E /* InputDay10 in Resources */ = {isa = PBXBuildFile; fileRef = DEB6D50A2582091700B6A71E /* InputDay10 */; };
@@ -83,6 +88,8 @@
 		DEC96A81257EDDD6008392CF /* InputDay7 in Resources */ = {isa = PBXBuildFile; fileRef = DEC96A7F257EDDD6008392CF /* InputDay7 */; };
 		DEC96A82257EDDD6008392CF /* InputDay7 in Resources */ = {isa = PBXBuildFile; fileRef = DEC96A7F257EDDD6008392CF /* InputDay7 */; };
 		DEC96A83257EDDD6008392CF /* InputDay7 in Resources */ = {isa = PBXBuildFile; fileRef = DEC96A7F257EDDD6008392CF /* InputDay7 */; };
+		DED652BC258679D7005807CA /* InputDay12 in Resources */ = {isa = PBXBuildFile; fileRef = DED652BB258679D7005807CA /* InputDay12 */; };
+		DED652BD258679D7005807CA /* InputDay12 in Resources */ = {isa = PBXBuildFile; fileRef = DED652BB258679D7005807CA /* InputDay12 */; };
 		DEE0F6FA2576D473005F1C91 /* Day1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0F6F92576D473005F1C91 /* Day1Tests.swift */; };
 		DEE0F7052576D473005F1C91 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0F7042576D473005F1C91 /* Tests_macOS.swift */; };
 		DEE0F7072576D473005F1C91 /* AoC2020App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0F6DE2576D470005F1C91 /* AoC2020App.swift */; };
@@ -167,6 +174,8 @@
 		DE84124C2580EA5200B483D7 /* Day9Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day9Tests.swift; sourceTree = "<group>"; };
 		DE8412522580ECCB00B483D7 /* EncodingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodingError.swift; sourceTree = "<group>"; };
 		DE84125B2580ED8100B483D7 /* InputDay9 */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay9; sourceTree = "<group>"; };
+		DE9C010A2586743E001DFBAD /* Day12Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day12Tests.swift; sourceTree = "<group>"; };
+		DE9C01102586748F001DFBAD /* RainRisk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainRisk.swift; sourceTree = "<group>"; };
 		DEB6D4F525816AB300B6A71E /* StoryDay9 */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoryDay9; sourceTree = "<group>"; };
 		DEB6D5042582079800B6A71E /* Day10Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day10Tests.swift; sourceTree = "<group>"; };
 		DEB6D50A2582091700B6A71E /* InputDay10 */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay10; sourceTree = "<group>"; };
@@ -178,6 +187,7 @@
 		DEC96A70257EDB2E008392CF /* Day7Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day7Tests.swift; sourceTree = "<group>"; };
 		DEC96A76257EDD01008392CF /* HandyHaversacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandyHaversacks.swift; sourceTree = "<group>"; };
 		DEC96A7F257EDDD6008392CF /* InputDay7 */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay7; sourceTree = "<group>"; };
+		DED652BB258679D7005807CA /* InputDay12 */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay12; sourceTree = "<group>"; };
 		DEE0F6DE2576D470005F1C91 /* AoC2020App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AoC2020App.swift; sourceTree = "<group>"; };
 		DEE0F6DF2576D470005F1C91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DEE0F6E02576D472005F1C91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -197,7 +207,6 @@
 		DEE0F7512577FE9E005F1C91 /* InputDay1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = InputDay1; sourceTree = "<group>"; };
 		DEE0F7622577FFC5005F1C91 /* FileReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileReader.swift; sourceTree = "<group>"; };
 		DEE0F78925780BBF005F1C91 /* Day2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2Tests.swift; sourceTree = "<group>"; };
-		DEE0F78F257815EC005F1C91 /* AoC.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = AoC.playground; path = ../../../../../Code/Playgrounds/AoC.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DEE0F7942578316C005F1C91 /* PasswordPhilosophy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordPhilosophy.swift; sourceTree = "<group>"; };
 		DEE18C5D2578327100148C53 /* InputDay2 */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay2; sourceTree = "<group>"; };
 		DEE18C642578327F00148C53 /* StoryDay2 */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoryDay2; sourceTree = "<group>"; };
@@ -320,10 +329,18 @@
 			path = Day7;
 			sourceTree = "<group>";
 		};
+		DED652C2258697B0005807CA /* Day12 */ = {
+			isa = PBXGroup;
+			children = (
+				DE9C01102586748F001DFBAD /* RainRisk.swift */,
+				DED652BB258679D7005807CA /* InputDay12 */,
+			);
+			path = Day12;
+			sourceTree = "<group>";
+		};
 		DEE0F6D82576D470005F1C91 = {
 			isa = PBXGroup;
 			children = (
-				DEE0F78F257815EC005F1C91 /* AoC.playground */,
 				DEE0F6DD2576D470005F1C91 /* Shared */,
 				DEE0F6E72576D472005F1C91 /* iOS */,
 				DEE0F6EE2576D473005F1C91 /* macOS */,
@@ -340,6 +357,7 @@
 				DEE0F6DF2576D470005F1C91 /* ContentView.swift */,
 				DE3D9A8D257AD04300317164 /* Advent2020.swift */,
 				DEE0F7622577FFC5005F1C91 /* FileReader.swift */,
+				DED652C2258697B0005807CA /* Day12 */,
 				DE716F13258426EA005E4730 /* Day11 */,
 				DE5F461F25834E2400A54C31 /* Day10 */,
 				DEB6D4FB25816ACF00B6A71E /* Day9 */,
@@ -398,6 +416,7 @@
 				DE84124C2580EA5200B483D7 /* Day9Tests.swift */,
 				DEB6D5042582079800B6A71E /* Day10Tests.swift */,
 				DE716EFB25841011005E4730 /* Day11Tests.swift */,
+				DE9C010A2586743E001DFBAD /* Day12Tests.swift */,
 				DEE0F6FB2576D473005F1C91 /* Info.plist */,
 			);
 			path = "Tests iOS";
@@ -579,6 +598,7 @@
 				DEE0F7522577FE9E005F1C91 /* StoryDay1 in Resources */,
 				DE841222257F8B0700B483D7 /* InputDay8 in Resources */,
 				DEE18C652578327F00148C53 /* StoryDay2 in Resources */,
+				DED652BC258679D7005807CA /* InputDay12 in Resources */,
 				DEB6D50B2582091700B6A71E /* InputDay10 in Resources */,
 				DEC96A80257EDDD6008392CF /* InputDay7 in Resources */,
 				DE716F0B25842464005E4730 /* InputDay11 in Resources */,
@@ -609,6 +629,7 @@
 				DEE18C662578327F00148C53 /* StoryDay2 in Resources */,
 				DE3D9A82257ACD2300317164 /* StoryDay4 in Resources */,
 				DE841232257FA27400B483D7 /* StoryDay8 in Resources */,
+				DED652BD258679D7005807CA /* InputDay12 in Resources */,
 				DE3D9AB5257C25DD00317164 /* StoryDay5 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -664,6 +685,7 @@
 				DE8412532580ECCB00B483D7 /* EncodingError.swift in Sources */,
 				DE841228257F8B2700B483D7 /* HandheldHalting.swift in Sources */,
 				DEE0F7952578316C005F1C91 /* PasswordPhilosophy.swift in Sources */,
+				DE9C01112586748F001DFBAD /* RainRisk.swift in Sources */,
 				DEE18C802579601D00148C53 /* TobogganTrajectory.swift in Sources */,
 				DEC96A77257EDD01008392CF /* HandyHaversacks.swift in Sources */,
 				DE3D9AA6257BDCE200317164 /* BinaryBoarding.swift in Sources */,
@@ -686,6 +708,7 @@
 				DE8412542580ECCB00B483D7 /* EncodingError.swift in Sources */,
 				DE841229257F8B2700B483D7 /* HandheldHalting.swift in Sources */,
 				DEE0F7962578316C005F1C91 /* PasswordPhilosophy.swift in Sources */,
+				DE9C01122586748F001DFBAD /* RainRisk.swift in Sources */,
 				DEE18C812579601D00148C53 /* TobogganTrajectory.swift in Sources */,
 				DEC96A78257EDD01008392CF /* HandyHaversacks.swift in Sources */,
 				DE3D9AA7257BDCE200317164 /* BinaryBoarding.swift in Sources */,
@@ -701,10 +724,12 @@
 				DEE0F78A25780BBF005F1C91 /* Day2Tests.swift in Sources */,
 				DE3D9AA8257BDCE200317164 /* BinaryBoarding.swift in Sources */,
 				DEE18C7A2578C23E00148C53 /* Day3Tests.swift in Sources */,
+				DE9C010B2586743E001DFBAD /* Day12Tests.swift in Sources */,
 				DEE0F76D2578007A005F1C91 /* FileReader.swift in Sources */,
 				DE716F04258423E9005E4730 /* SeatingSystem.swift in Sources */,
 				DEE18CB1257A209800148C53 /* PassportProcessing.swift in Sources */,
 				DE84122A257F8B2700B483D7 /* HandheldHalting.swift in Sources */,
+				DE9C01132586748F001DFBAD /* RainRisk.swift in Sources */,
 				DEE0F6FA2576D473005F1C91 /* Day1Tests.swift in Sources */,
 				DEB6D51B2582094B00B6A71E /* AdapterArray.swift in Sources */,
 				DEE18C92257961D600148C53 /* TobogganTrajectory.swift in Sources */,
@@ -740,6 +765,7 @@
 				DEE18C97257961D700148C53 /* TobogganTrajectory.swift in Sources */,
 				DEC96A58257D7C0F008392CF /* CustomCustoms.swift in Sources */,
 				DE716F05258423E9005E4730 /* SeatingSystem.swift in Sources */,
+				DE9C01142586748F001DFBAD /* RainRisk.swift in Sources */,
 				DEE0F7052576D473005F1C91 /* Tests_macOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
