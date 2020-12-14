@@ -90,6 +90,15 @@
 		DEC96A83257EDDD6008392CF /* InputDay7 in Resources */ = {isa = PBXBuildFile; fileRef = DEC96A7F257EDDD6008392CF /* InputDay7 */; };
 		DED652BC258679D7005807CA /* InputDay12 in Resources */ = {isa = PBXBuildFile; fileRef = DED652BB258679D7005807CA /* InputDay12 */; };
 		DED652BD258679D7005807CA /* InputDay12 in Resources */ = {isa = PBXBuildFile; fileRef = DED652BB258679D7005807CA /* InputDay12 */; };
+		DED652CC25869FB6005807CA /* Day13Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED652CB25869FB6005807CA /* Day13Tests.swift */; };
+		DED652D22586A9C6005807CA /* ShuttleSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED652D12586A9C6005807CA /* ShuttleSearch.swift */; };
+		DED652D32586A9C6005807CA /* ShuttleSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED652D12586A9C6005807CA /* ShuttleSearch.swift */; };
+		DED652D42586A9C6005807CA /* ShuttleSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED652D12586A9C6005807CA /* ShuttleSearch.swift */; };
+		DED652D52586A9C6005807CA /* ShuttleSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED652D12586A9C6005807CA /* ShuttleSearch.swift */; };
+		DED652DB2586AA18005807CA /* InputDay13 in Resources */ = {isa = PBXBuildFile; fileRef = DED652DA2586AA18005807CA /* InputDay13 */; };
+		DED652DC2586AA18005807CA /* InputDay13 in Resources */ = {isa = PBXBuildFile; fileRef = DED652DA2586AA18005807CA /* InputDay13 */; };
+		DED652DD2586AA18005807CA /* InputDay13 in Resources */ = {isa = PBXBuildFile; fileRef = DED652DA2586AA18005807CA /* InputDay13 */; };
+		DED652DE2586AA18005807CA /* InputDay13 in Resources */ = {isa = PBXBuildFile; fileRef = DED652DA2586AA18005807CA /* InputDay13 */; };
 		DEE0F6FA2576D473005F1C91 /* Day1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0F6F92576D473005F1C91 /* Day1Tests.swift */; };
 		DEE0F7052576D473005F1C91 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0F7042576D473005F1C91 /* Tests_macOS.swift */; };
 		DEE0F7072576D473005F1C91 /* AoC2020App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0F6DE2576D470005F1C91 /* AoC2020App.swift */; };
@@ -188,6 +197,9 @@
 		DEC96A76257EDD01008392CF /* HandyHaversacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandyHaversacks.swift; sourceTree = "<group>"; };
 		DEC96A7F257EDDD6008392CF /* InputDay7 */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay7; sourceTree = "<group>"; };
 		DED652BB258679D7005807CA /* InputDay12 */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay12; sourceTree = "<group>"; };
+		DED652CB25869FB6005807CA /* Day13Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day13Tests.swift; sourceTree = "<group>"; };
+		DED652D12586A9C6005807CA /* ShuttleSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuttleSearch.swift; sourceTree = "<group>"; };
+		DED652DA2586AA18005807CA /* InputDay13 */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay13; sourceTree = "<group>"; };
 		DEE0F6DE2576D470005F1C91 /* AoC2020App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AoC2020App.swift; sourceTree = "<group>"; };
 		DEE0F6DF2576D470005F1C91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DEE0F6E02576D472005F1C91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -338,6 +350,15 @@
 			path = Day12;
 			sourceTree = "<group>";
 		};
+		DED652E325874A34005807CA /* Day13 */ = {
+			isa = PBXGroup;
+			children = (
+				DED652D12586A9C6005807CA /* ShuttleSearch.swift */,
+				DED652DA2586AA18005807CA /* InputDay13 */,
+			);
+			path = Day13;
+			sourceTree = "<group>";
+		};
 		DEE0F6D82576D470005F1C91 = {
 			isa = PBXGroup;
 			children = (
@@ -357,6 +378,7 @@
 				DEE0F6DF2576D470005F1C91 /* ContentView.swift */,
 				DE3D9A8D257AD04300317164 /* Advent2020.swift */,
 				DEE0F7622577FFC5005F1C91 /* FileReader.swift */,
+				DED652E325874A34005807CA /* Day13 */,
 				DED652C2258697B0005807CA /* Day12 */,
 				DE716F13258426EA005E4730 /* Day11 */,
 				DE5F461F25834E2400A54C31 /* Day10 */,
@@ -417,6 +439,7 @@
 				DEB6D5042582079800B6A71E /* Day10Tests.swift */,
 				DE716EFB25841011005E4730 /* Day11Tests.swift */,
 				DE9C010A2586743E001DFBAD /* Day12Tests.swift */,
+				DED652CB25869FB6005807CA /* Day13Tests.swift */,
 				DEE0F6FB2576D473005F1C91 /* Info.plist */,
 			);
 			path = "Tests iOS";
@@ -595,6 +618,7 @@
 				DE8412442580280700B483D7 /* StoryDay7 in Resources */,
 				DEE0F70B2576D473005F1C91 /* Assets.xcassets in Resources */,
 				DEE18C9D2579778E00148C53 /* StoryDay3 in Resources */,
+				DED652DB2586AA18005807CA /* InputDay13 in Resources */,
 				DEE0F7522577FE9E005F1C91 /* StoryDay1 in Resources */,
 				DE841222257F8B0700B483D7 /* InputDay8 in Resources */,
 				DEE18C652578327F00148C53 /* StoryDay2 in Resources */,
@@ -618,6 +642,7 @@
 				DEE18C8D2579609000148C53 /* InputDay3 in Resources */,
 				DEE0F7552577FE9E005F1C91 /* InputDay1 in Resources */,
 				DEE18C5F2578327100148C53 /* InputDay2 in Resources */,
+				DED652DC2586AA18005807CA /* InputDay13 in Resources */,
 				DEE18CBF257A24AA00148C53 /* InputDay4 in Resources */,
 				DE8412452580280700B483D7 /* StoryDay7 in Resources */,
 				DEE0F70C2576D473005F1C91 /* Assets.xcassets in Resources */,
@@ -646,6 +671,7 @@
 				DE8412462580280700B483D7 /* StoryDay7 in Resources */,
 				DE716F0D25842464005E4730 /* InputDay11 in Resources */,
 				DEE18CC0257A24AA00148C53 /* InputDay4 in Resources */,
+				DED652DD2586AA18005807CA /* InputDay13 in Resources */,
 				DE84125E2580ED8100B483D7 /* InputDay9 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -662,6 +688,7 @@
 				DE8412472580280700B483D7 /* StoryDay7 in Resources */,
 				DE716F0E25842464005E4730 /* InputDay11 in Resources */,
 				DEE18CC1257A24AA00148C53 /* InputDay4 in Resources */,
+				DED652DE2586AA18005807CA /* InputDay13 in Resources */,
 				DE84125F2580ED8100B483D7 /* InputDay9 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -678,6 +705,7 @@
 				DEB6D5112582092B00B6A71E /* AdapterArray.swift in Sources */,
 				DE3D9A8E257AD04300317164 /* Advent2020.swift in Sources */,
 				DEE0F7092576D473005F1C91 /* ContentView.swift in Sources */,
+				DED652D22586A9C6005807CA /* ShuttleSearch.swift in Sources */,
 				DEC96A49257CF53E008392CF /* CustomCustoms.swift in Sources */,
 				DEE18CAF257A209800148C53 /* PassportProcessing.swift in Sources */,
 				DEE0F7632577FFC5005F1C91 /* FileReader.swift in Sources */,
@@ -701,6 +729,7 @@
 				DEB6D5162582094A00B6A71E /* AdapterArray.swift in Sources */,
 				DE3D9A8F257AD04300317164 /* Advent2020.swift in Sources */,
 				DEE0F70A2576D473005F1C91 /* ContentView.swift in Sources */,
+				DED652D32586A9C6005807CA /* ShuttleSearch.swift in Sources */,
 				DEC96A4E257D7C0E008392CF /* CustomCustoms.swift in Sources */,
 				DEE18CB0257A209800148C53 /* PassportProcessing.swift in Sources */,
 				DEE0F7642577FFC5005F1C91 /* FileReader.swift in Sources */,
@@ -724,6 +753,7 @@
 				DEE0F78A25780BBF005F1C91 /* Day2Tests.swift in Sources */,
 				DE3D9AA8257BDCE200317164 /* BinaryBoarding.swift in Sources */,
 				DEE18C7A2578C23E00148C53 /* Day3Tests.swift in Sources */,
+				DED652CC25869FB6005807CA /* Day13Tests.swift in Sources */,
 				DE9C010B2586743E001DFBAD /* Day12Tests.swift in Sources */,
 				DEE0F76D2578007A005F1C91 /* FileReader.swift in Sources */,
 				DE716F04258423E9005E4730 /* SeatingSystem.swift in Sources */,
@@ -731,6 +761,7 @@
 				DE84122A257F8B2700B483D7 /* HandheldHalting.swift in Sources */,
 				DE9C01132586748F001DFBAD /* RainRisk.swift in Sources */,
 				DEE0F6FA2576D473005F1C91 /* Day1Tests.swift in Sources */,
+				DED652D42586A9C6005807CA /* ShuttleSearch.swift in Sources */,
 				DEB6D51B2582094B00B6A71E /* AdapterArray.swift in Sources */,
 				DEE18C92257961D600148C53 /* TobogganTrajectory.swift in Sources */,
 				DE72BA10257F889100E10F16 /* Day8Tests.swift in Sources */,
@@ -765,6 +796,7 @@
 				DEE18C97257961D700148C53 /* TobogganTrajectory.swift in Sources */,
 				DEC96A58257D7C0F008392CF /* CustomCustoms.swift in Sources */,
 				DE716F05258423E9005E4730 /* SeatingSystem.swift in Sources */,
+				DED652D52586A9C6005807CA /* ShuttleSearch.swift in Sources */,
 				DE9C01142586748F001DFBAD /* RainRisk.swift in Sources */,
 				DEE0F7052576D473005F1C91 /* Tests_macOS.swift in Sources */,
 			);
